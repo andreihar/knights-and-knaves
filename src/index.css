@@ -13,6 +13,20 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  border: 1px solid #000;
+  opacity: .2;
+  pointer-events: none;
+  z-index: 2;
+  box-sizing: border-box;
 }
 .cover-container {
   max-width: 42em;
@@ -71,4 +85,81 @@ button {
   right: 0px;
   bottom: 0px;
   left: 0px;
+}
+
+/* Overlay */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ReactModal__Content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  background: #fff;
+  overflow: auto;
+  outline: none;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  box-sizing: content-box;
+  padding: 20px;
+}
+
+/* Img Text */
+.img-text {
+  align-items: flex-end;
+  display: flex;
+  filter: drop-shadow(0 20px 32px rgba(0,0,0,.5));
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.img-text:before {
+  background: linear-gradient(180deg,transparent,#000 69.27%);
+  bottom: 0;
+  content: "";
+  height: 95px;
+  left: 0;
+  opacity: .6;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.img-text:after {
+  border: 1px solid hsla(0,0%,100%,.2);
+  bottom: 4px;
+  box-sizing: border-box;
+  content: "";
+  left: 4px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 2;
+}
+.img-text img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.img-text h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  margin: 0;
+  padding: 24px;
+  text-shadow: 0 2px 24px rgba(0,0,0,.6);
+  z-index: 3;
 }
