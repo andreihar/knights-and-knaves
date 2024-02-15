@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './content/Home'
-import Cards from './content/Cards'
-import Characters from './content/Characters'
-import Storyworld from './content/Storyworld'
-import Premise from './content/Premise'
-import Dynamics from './content/Dynamics'
-import TradeOffs from './content/TradeOffs'
-import Duration from './content/Duration'
-import Gallery from './content/Gallery'
+import Home from './pages/Home'
+import Cards from './pages/Cards'
+import Characters from './pages/Characters'
+import Storyworld from './pages/Storyworld'
+import Premise from './pages/Premise'
+import Dynamics from './pages/Dynamics'
+import TradeOffs from './pages/TradeOffs'
+import Duration from './pages/Duration'
+import Gallery from './pages/Gallery'
 
 function App() {
   return (

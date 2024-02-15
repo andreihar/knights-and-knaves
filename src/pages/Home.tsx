@@ -1,5 +1,5 @@
-import Navbar from '../pages/Navbar';
-import Footer from '../pages/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import videoSource from '../assets/trailer.mp4';
 
 function Home() {

@@ -1,7 +1,7 @@
 // Characters.js
 import React, { useState } from 'react';
-import Character from '../pages/Character';
-import { CharClass } from '../classes/CharClass';
+import Character from '../components/Region';
+import { CharClass } from '../models/CharClass';
 
 const Characters = () => {
   const [character, setCharacter] = useState<CharClass | null>(null);
@@ -24,7 +24,7 @@ const Characters = () => {
       <button type="button" onClick={() => handleClick(new CharClass("Jack", "asd", "lorem2"))}>
         Open Character Page 2
       </button>
-      {character && <Character character={character} isOpen={isModalOpen} onRequestClose={handleClose} />}
+      {character && <Character region={character} isOpen={isModalOpen} onRequestClose={handleClose} />}
     </div>
   );
 };

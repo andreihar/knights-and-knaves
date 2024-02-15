@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+a {
+  text-decoration: none !important;
+}
 body {
   background-image: url('assets/background.webp');
   background-attachment: fixed;
@@ -15,18 +18,28 @@ body {
   background-size: cover;
   position: relative;
 }
-body::before {
+body::before, body::after {
   content: "";
   position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  box-sizing: border-box;
+}
+body::before {
   top: 16px;
   left: 16px;
   right: 16px;
   bottom: 16px;
+  border: 2px solid #000;
+  opacity: .3;
+}
+body::after {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
   border: 1px solid #000;
   opacity: .2;
-  pointer-events: none;
-  z-index: 2;
-  box-sizing: border-box;
 }
 .cover-container {
   max-width: 42em;
@@ -64,6 +77,7 @@ button {
   vertical-align: middle;
   background-color: rgba(14,14,14,.9);
   transition: .2s box-shadow, .2s background-color, .2s color, .2s transform, .2s font-weight;
+  border: 1px solid grey;
 }
 .button::before {
   content: "";
@@ -95,6 +109,7 @@ button {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1031;
 }
 
 .ReactModal__Content {
@@ -115,13 +130,26 @@ button {
 
 /* Img Text */
 .img-text {
-  align-items: flex-end;
-  display: flex;
-  filter: drop-shadow(0 20px 32px rgba(0,0,0,.5));
-  justify-content: center;
   position: relative;
-  text-align: center;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-text h3 {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  padding: 24px;
+  text-shadow: 0 2px 24px rgba(0,0,0,.6);
+  z-index: 2;
+}
+.ting {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 .img-text:before {
   background: linear-gradient(180deg,transparent,#000 69.27%);
@@ -145,13 +173,13 @@ button {
   top: 4px;
   z-index: 2;
 }
-.img-text img {
+/* .img-text img {
   height: 100%;
+  width: 100%;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 100%;
 }
 .img-text h3 {
   color: #fff;
@@ -162,4 +190,4 @@ button {
   padding: 24px;
   text-shadow: 0 2px 24px rgba(0,0,0,.6);
   z-index: 3;
-}
+} */
