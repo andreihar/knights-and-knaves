@@ -1,3 +1,9 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+h1, h2, h3, h4, h5, h6, .navbar {
+  font-family: "Marcellus SC",serif;
+}
+
 /* General */
 :root {
   --navbar-height: 60px;
@@ -11,8 +17,11 @@
 a {
   text-decoration: none !important;
 }
+p {
+  font-size: 1.25rem;
+}
 body {
-  background-image: url('assets/background.webp');
+  background-image: url('../assets/background.webp');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +155,7 @@ button {
   text-shadow: 0 2px 24px rgba(0,0,0,.6);
   z-index: 2;
 }
-.ting {
+.quadruple-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
@@ -173,21 +182,3 @@ button {
   top: 4px;
   z-index: 2;
 }
-/* .img-text img {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-}
-.img-text h3 {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 34px;
-  margin: 0;
-  padding: 24px;
-  text-shadow: 0 2px 24px rgba(0,0,0,.6);
-  z-index: 3;
-} */

@@ -8,6 +8,7 @@ import Dynamics from './pages/Dynamics'
 import TradeOffs from './pages/TradeOffs'
 import Duration from './pages/Duration'
 import Gallery from './pages/Gallery'
+import Contributions from './pages/Contributions'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/tradeoffs" element={<TradeOffs />} />
       <Route path="/duration" element={<Duration />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contributions" element={<Contributions />} />
     </Routes>
   )
 }
