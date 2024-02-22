@@ -1,8 +1,19 @@
 {
 	"gameTitle": "Knights and Knaves",
-	"coreStatement": "In this cutthroat game, loyalty is a liability, trust is a luxury, and only the master manipulators survive.",
-	"gameInspiration": "This game idea originated from Samuel Jen’s boardgame ideation where he took inspiration from his favourite boardgame genre: social deception game. He took the idea from board games like Coup and One-night Warewolf where the players must try to deceive other players to win the game. It is full of bluffing, strategy, and betrayal. Building on top of these concepts, our team created the [Game Title] that brings chaos and back-stabbing to the next level.",
-	"pillarWhat": "Strategic card-based board game where players must analyse and strategise their resources to outmanoeuvre opponents and win as a team.",
-	"pillarHow": "Through decisive actions, bluffing, and potential betrayals, players must strategically manage resources, including their health points and action cards, while coordinating with potential deception teammates, in the pursuit of victory.",
-	"pillarWhy": "The game provides players with an engaging experience that challenges their strategic thinking, communication, teamwork, bluffing finesse, and grab that sweet fruit of deception and betrayal."
+	"coreStatement": "In this cutthroat game, loyalty is a liability, trust is a luxury, and only the cunning master manipulators emerge victorious",
+	"gameInspiration": "This game idea originated from Samuel Jen’s board game concept, drawing inspiration from his favourite board game genre: social deception games. He was particularly influenced by games such as Coup and One Night Ultimate Werewolf, where players must employ deception to achieve victory. These games are characterised by bluffing, strategic thinking, and betrayal. Expanding upon these fundamental concepts, our team developed [Game Title], which takes chaos and backstabbing to new heights.",
+	"pillarWhat": "A strategic card-based board game where players analyse and strategise their resources to outmanouevre opponents and achieve victory as a cohesive team.",
+	"pillarHow": "Through decisive actions, strategic bluffing, and the potential for betrayals, players must adeptly manage their resources, including health points and action cards, all while coordinating with potential deceptive allies, in their quest for victory.",
+	"pillarWhy": "The game offers players an immersive experience that tests their strategic thinking, communication skills, teamwork, bluffing prowess, and ability to navigate the enticing realm of deception and betrayal to seize victory.",
+	"premise": {
+		"date1": "2023",
+		"event1": "DDP Wins Elections",
+		"description1": "The DDP (Democratic Dictatorship Party) has won the elections and has taken control of the country. The DDP has promised to bring peace and prosperity to the country, but the people are sceptical of their intentions.",
+		"date2": "2024",
+		"event2": "The Great Betrayal",
+		"description2": "The DDP has taken control of the country and has started to implement their policies. The people are starting to see the true intentions of the DDP and are starting to rebel against them. The DDP has started to use force to suppress the rebellion.",
+		"date3": "2025",
+		"event3": "The Resistance",
+		"description3": "The people have started to form a resistance against the DDP. The resistance is made up of people from all walks of life, and they are determined to take back control of the country. The resistance has started to gain momentum, and the DDP is starting to feel the pressure."
+	}
 }

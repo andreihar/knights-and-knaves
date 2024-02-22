@@ -2,10 +2,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import videoSource from '../assets/trailer.mp4';
 import text from '../assets/text.json';
-import React from 'react';
-
-import { defaultRegions } from "../assets/DefaultRegions"
-import Region from '../components/Region';
 
 function Home() {
   return (
@@ -15,8 +11,8 @@ function Home() {
     <header id="hero" className="d-flex text-center text-bg-dark" >
       <div className="cover-container d-flex w-100 min-vh-100 p-3 mx-auto flex-column justify-content-center">
         <div className="px-3">
-          <h1 className="shadow p-3">{text.gameTitle}</h1>
-          {/* <p className="lead  p-3">{text.coreStatement}</p> */}
+          <h1 className="p-3 display-1 text-primary">{text.gameTitle}</h1>
+          <p className="lead p-3">{text.coreStatement}</p>
           <p className="lead">
             <a href="#trailer" className="button">Watch Trailer</a>
           </p>
@@ -141,14 +137,13 @@ function Home() {
     {/* Gallery */}
     {/* Logs */}
     {/* Description */}
-    {/* <Footer /> */}
-    <section id="section-dark" className="min-vh-100 d-flex flex-column" style={{
+    {/* <section id="section-dark" className="min-vh-100 d-flex flex-column" style={{
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images5.alphacoders.com/424/424912.jpg')`
     }}>
       <h1 className="text-center section-title text-white">Your Heading</h1>
       <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
       </div>
-    </section>
+    </section> */}
     </main>
     <Footer />
     </>
