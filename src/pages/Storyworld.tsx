@@ -29,7 +29,7 @@ function Storyworld() {
         <div className="container px-4 py-5">
           <div className="row row-cols-1 row-cols-md-2 g-5 py-5">
             <div>
-              <h1 className="fw-bold text-white mb-5">Cool slogan idk</h1>
+              <h1 className="fw-bold text-white mb-5">Regions</h1>
               <div className="quadruple-grid">
                 {defaultRegions.map((region, index) => {
                   return (

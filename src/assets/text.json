@@ -15,5 +15,44 @@
 		"date3": "2025",
 		"event3": "The Resistance",
 		"description3": "The people have started to form a resistance against the DDP. The resistance is made up of people from all walks of life, and they are determined to take back control of the country. The resistance has started to gain momentum, and the DDP is starting to feel the pressure."
+	},
+	"dynamics": {
+		"description": "The main game dynamic revolves around player interaction through action cards, team identity secrecy, and strategic decision-making throughout the play.",
+		"title1": "Team Secrecy",
+		"text1": "Players’ team identity is imperfect information that causes bluffing and uncertainty. Players must deduce other’s identity while concealing their own.",
+		"title2": "Action Cards",
+		"text2": "Various action cards to affect the game condition.",
+		"title3": "Player Elimination",
+		"text3": "When the player’s health point runs out, the player’s eliminated.",
+		"title4": "Strategic Decision-Making",
+		"text4": "Players use action cards to eliminate opponents or protect themselves which involves predicting opponent’s move, detecting other’s bluff, and forming alliances to gain an advantage.",
+		"title5": "Winning Condition",
+		"text5": "The team with the highest health points wins.",
+		"title6": "Ending Condition",
+		"text6": "When only one player is remaining, the game ends."
+	},
+	"tradeoffs": {
+		"title1": "Information Gathering vs Team Secrecy",
+		"text1": "To win others’ trust, the players may need to reveal their own identity to trade for more information, however, the revealer may be lying and the information can be fake. This will make the whole information gathering process more challenging and interesting.",
+		"title2": "Risk vs Reward",
+		"text2": "Some of the special action cards like “Energy drink” that can increase the damage to 2 points could eliminate your enemy quicker, yet you may also accidentally kill your own teammate faster.",
+		"title3": "Alliances vs Betrayal",
+		"text3": "When the player numbers are not divisible by 3, some teams may have fewer players. Thus, they may form temporary alliances and coordinate attacks on the third group. However, once their common enemy is eliminated, they will have to turn against each other. A cold-hearted betrayal moment.",
+		"title4": "Bluffing and Deception",
+		"text4": " Players are allowed to bluff about any information, however, bluffing carries the risk of being exposed and thus loses other players’ trust.",
+		"title5": "Target Selection",
+		"text5": "With the limited number of action cards, choosing which target to aim is critical. The target selection can lead to a big win or a huge loss if judges incorrectly."
+	},
+	"duration": {
+		"title1": "Title1",
+		"text1": "Text1",
+		"title2": "Title2",
+		"text2": "Text2",
+		"title3": "Title3",
+		"text3": "Text3",
+		"title4": "Title4",
+		"text4": "Text4",
+		"title5": "Title5",
+		"text5": "Text5"
 	}
 }
