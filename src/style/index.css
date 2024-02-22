@@ -19,6 +19,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#hero h1 {
+  text-shadow: 0 2px 24px rgba(0,0,0,.6);
+}
 a {
   text-decoration: none !important;
 }
@@ -143,13 +146,13 @@ button {
 }
 
 /* Img Text */
-.img-text {
+.img-text, .character-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.img-text h3 {
+.img-text h3, .character-container h3 {
   position: absolute;
   bottom: 0;
   color: #fff;
@@ -165,7 +168,10 @@ button {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
-.img-text:before {
+.four-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+.img-text::before, .background-img::before {
   background: linear-gradient(180deg,transparent,#000 69.27%);
   bottom: 0;
   content: "";
@@ -298,4 +304,44 @@ button {
   width: 9px;
   content: "";
   top: 5px;
+}
+
+/* Characters */
+.character-container {
+  position: relative;
+  width: 200px;
+  height: 400px;
+}
+.character-img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  z-index: 2;
+}
+.background-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center center / cover;
+  z-index: 1;
+}
+.background-img::before {
+  height: 205px;
+}
+.modal-body {
+  position: absolute;
+  bottom: 28px;
+  left: 100px;
+  width: 600px;
+}
+.background-section {
+  width: 50%;
+  background: url('https://assetsio.reedpopcdn.com/the-witcher-3-jenny-o-the-woods-how-to-kill-the-nightwraith-3696-1432128535317.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp') no-repeat center center / cover;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+.text-section {
+  width: 50%;
 }
