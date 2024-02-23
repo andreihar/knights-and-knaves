@@ -350,6 +350,9 @@ button {
 .border-frame::before {
   content: "";
   position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  box-sizing: border-box;
   top: 10px;
   left: 10px;
   right: 10px;
