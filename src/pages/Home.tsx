@@ -11,8 +11,8 @@ function Home() {
     <header id="hero" className="d-flex text-center text-bg-dark" >
       <div className="cover-container d-flex w-100 min-vh-100 p-3 mx-auto flex-column justify-content-center">
         <div className="px-3">
-          <h1 className="p-3 display-1 text-primary">{text.gameTitle}</h1>
-          <p className="lead p-3">{text.coreStatement}</p>
+          <h1 className="p-3 pb-0 display-1 text-primary">{text.gameTitle}</h1>
+          {/* <h1 className="p-3 pt-0 text-primary mb-5">{text.gameTitle}</h1> */}
           <p className="lead">
             <a href="#trailer" className="button">Watch Trailer</a>
           </p>
@@ -41,40 +41,6 @@ function Home() {
         </div>
       </div>
     </section>
-    {/* Inspiration */}
-    <section id="inspiration" className="min-vh-100 d-flex flex-column" >
-      <h1 className="text-center section-title">Inspiration</h1>
-      <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
-        <div className="container px-4 py-5">
-          <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-            <div className="col d-flex flex-column align-items-start gap-2">
-              <p>{text.gameInspiration}</p>
-            </div>
-            <div className="col">
-              <div className="row row-cols-1 row-cols-sm-2 g-4">
-                <div className="col d-flex flex-column gap-2">
-                  <img src="https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg" className="" alt="..."/>
-                </div>
-                <div className="col d-flex flex-column gap-2">
-                  <img src="https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg" className="" alt="..."/>
-                </div>
-                <div className="col d-flex flex-column gap-2 position-relative">
-                  <img src="https://i0.wp.com/islaythedragon.com/wp-content/uploads/2014/01/1-IMG_05761.jpg?fit=1200%2C900&ssl=1&w=640" className="rounded-4 shadow-lg" alt="..."/>
-                  <h3 className="position-absolute bottom-0 ms-2 text-white opacity-75 p-2 display-6 fw-bold fs-3 fs-md-4 fs-lg-5">Coup</h3>
-                </div>
-                <div className="col d-flex flex-column gap-2">
-                  <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg ratio ratio-4x3" style={{ backgroundImage: 'url("https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg")' }}>
-                    <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                      <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-black fs-3 fs-md-4 fs-lg-5">Coup</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     {/* Inspiration 2 */}
     <section id="inspiration" className="min-vh-100 d-flex flex-column" >
       <h1 className="text-center section-title">Inspiration</h1>
@@ -96,12 +62,12 @@ function Home() {
                     <h3 className="text-center fs-4">One Night Ultimate Werewolf</h3>
                   </div>
                   <div className="img-text">
-                    <img src="https://images.hdqwalls.com/download/the-witcher-3-wild-hunt-4-1024x768.jpg" alt="Inspiration" className="img-fluid"/>
-                    <h3>The Witcher</h3>
+                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20150129181154-exploding-kittens.jpeg?format=pjeg&auto=webp&crop=4:3" alt="Inspiration" className="img-fluid"/>
+                    <h3 className="fs-3">Exploding Kittens</h3>
                   </div>
                   <div className="img-text">
-                    <img src="https://i0.wp.com/islaythedragon.com/wp-content/uploads/2014/01/1-IMG_05761.jpg?fit=1200%2C900&ssl=1&w=640" alt="Inspiration" className="img-fluid"/>
-                    <h3>Coup</h3>
+                    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/12/13/17/42-hobbit-mgmwarner.jpg" alt="Inspiration" className="img-fluid"/>
+                    <h3>The Hobbit</h3>
                   </div>
                 </div>
               </div>

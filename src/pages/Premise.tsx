@@ -3,6 +3,17 @@ import Footer from '../components/Footer'
 import text from '../assets/text.json'
 
 function Premise() {
+  const events = [
+    { date: text.timeline.date1, event: text.timeline.event1, description: text.timeline.description1 },
+    { date: text.timeline.date2, event: text.timeline.event2, description: text.timeline.description2 },
+    { date: text.timeline.date3, event: text.timeline.event3, description: text.timeline.description3 },
+    { date: text.timeline.date4, event: text.timeline.event4, description: text.timeline.description4 },
+    { date: text.timeline.date5, event: text.timeline.event5, description: text.timeline.description5 },
+    { date: text.timeline.date6, event: text.timeline.event6, description: text.timeline.description6 },
+    { date: text.timeline.date7, event: text.timeline.event7, description: text.timeline.description7 },
+    { date: text.timeline.date8, event: text.timeline.event8, description: text.timeline.description8 },
+  ];
+
   return (
     <>
       <Navbar />
@@ -12,23 +23,15 @@ function Premise() {
           <div className="row">
             <div className="col-md-12">
               <div id="content">
-                <ul className="timeline">
-                  <li className="event">
-                    <h5>{text.premise.date1}</h5>
-                    <h3>{text.premise.event1}</h3>
-                    <p>{text.premise.description1}</p>
+              <ul className="timeline">
+                {events.map((event, index) => (
+                  <li className="event" key={index}>
+                    <h5>{event.date}</h5>
+                    <h3>{event.event}</h3>
+                    <p>{event.description}</p>
                   </li>
-                  <li className="event">
-                    <h5>{text.premise.date2}</h5>
-                    <h3>{text.premise.event2}</h3>
-                    <p>{text.premise.description2}</p>
-                  </li>
-                  <li className="event">
-                    <h5>{text.premise.date3}</h5>
-                    <h3>{text.premise.event3}</h3>
-                    <p>{text.premise.description3}</p>
-                  </li>
-                </ul>
+                ))}
+              </ul>
               </div>
             </div>
           </div>
