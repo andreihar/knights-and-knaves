@@ -20,7 +20,6 @@ function Contributions() {
       title: row.Title,
       text: row.Text,
       projectParts: [
-        // Website,Backstory,Dynamics,Trade-Offs,Duration,Gallery,Cards,Rule Book,Meeting Logs,Playtest Logs,Flowcharts,Quantitative Analysis,Trailer,Visuals,Moodboard
         { part: 'Website', contribution: parseInt(row.Website) },
         { part: 'Backstory', contribution: parseInt(row.Backstory) },
         { part: 'Dynamics', contribution: parseInt(row.Dynamics) },

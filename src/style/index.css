@@ -1,7 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Josefin Sans", sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Marcellus SC",serif;
@@ -128,7 +129,6 @@ button {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1031;
 }
-
 .ReactModal__Content {
   position: absolute;
   top: 0;
