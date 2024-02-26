@@ -15,12 +15,12 @@ const Characters = () => {
   const [character, setCharacter] = useState<CharClass | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const redTeam = defaultChars.slice(0, 2);
+  const redTeam = defaultChars.filter((char) => char.team === 'red');
   const redColour = '#8E1407';
-  const blueTeam = defaultChars.slice(2, 4);
-  const blueColour = '#1C3A62';
-  const greenTeam = defaultChars.slice(4, 6);
+  const greenTeam = defaultChars.filter((char) => char.team === 'green');
   const greenColour = '#697C3D';
+  const blueTeam = defaultChars.filter((char) => char.team === 'blue');
+  const blueColour = '#1C3A62';
 
   const handleClick = (newCharacter: CharClass) => {
     setCharacter(newCharacter);
