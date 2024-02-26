@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import videoSource from '../assets/trailer.mp4';
+import videoSource from '../assets/images/trailer.mp4';
 import text from '../assets/text.json';
 
 function Home() {
@@ -41,11 +41,11 @@ function Home() {
         </div>
       </div>
     </section>
-    {/* Inspiration 2 */}
+    {/* Inspiration */}
     <section id="inspiration" className="min-vh-100 d-flex flex-column" >
       <h1 className="text-center section-title">Inspiration</h1>
       <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
-        <div className="container px-4 py-5">
+        <div className="container px-4">
           <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
             <div className="col d-flex flex-column align-items-start gap-2">
               <p>{text.gameInspiration}</p>
@@ -62,8 +62,8 @@ function Home() {
                     <h3 className="text-center fs-4">One Night Ultimate Werewolf</h3>
                   </div>
                   <div className="img-text">
-                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20150129181154-exploding-kittens.jpeg?format=pjeg&auto=webp&crop=4:3" alt="Inspiration" className="img-fluid"/>
-                    <h3 className="fs-3">Exploding Kittens</h3>
+                    <img src="https://c4.wallpaperflare.com/wallpaper/1008/880/1005/the-witcher-gwent-the-witcher-card-game-wallpaper-preview.jpg" alt="Inspiration" className="img-fluid"/>
+                    <h3 className="fs-3">Gwent</h3>
                   </div>
                   <div className="img-text">
                     <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/12/13/17/42-hobbit-mgmwarner.jpg" alt="Inspiration" className="img-fluid"/>

@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
   --image-border-color: black;
   --hero-alpha: 0.6;
 }
+html {
+  scroll-padding-top: var(--navbar-height);
+}
 #hero {
   background: linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url('https://images6.alphacoders.com/451/451408.jpg');
   background-repeat: no-repeat;
@@ -171,7 +174,7 @@ button {
 .four-grid {
   grid-template-columns: repeat(4, 1fr);
 }
-.img-text::before, .background-img::before {
+.img-text::before {
   background: linear-gradient(180deg,transparent,#000 69.27%);
   bottom: 0;
   content: "";
@@ -307,29 +310,8 @@ button {
 }
 
 /* Characters */
-.character-container {
-  position: relative;
-  width: 200px;
-  height: 400px;
-}
 .character-img {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
-  object-fit: contain;
-  z-index: 2;
-}
-.background-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: no-repeat center center / cover;
-  z-index: 1;
-}
-.background-img::before {
-  height: 205px;
+  max-height: 400px;
 }
 .modal-body {
   position: absolute;

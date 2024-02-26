@@ -70,5 +70,13 @@
 		"text4": "Text4",
 		"title5": "Title5",
 		"text5": "Text5"
+	},
+	"factions": {
+		"titleRed": "Knights of Valour",
+		"textRed": "The Knights of Valour are a group of noble knights who are loyal to the king and are determined to retrieve the Crown Jewel to restore peace to Estoria. They are known for their bravery, chivalry, and unwavering loyalty to the king.",
+		"titleBlue": "Royal Crew",
+		"textBlue": "The Royal Crew is a team of skilled archers and warriors who are fiercely loyal to the king. They are known for their precision, agility, and unwavering dedication to the king.",
+		"titleGreen": "Shadow Brotherhood",
+		"textGreen": "The Shadow Brotherhood is a group of secretive rogues and assassins who are determined to retrieve the Crown Jewel to restore peace to Estoria. They are known for their stealth, cunning, and unwavering dedication to the king."
 	}
 }
