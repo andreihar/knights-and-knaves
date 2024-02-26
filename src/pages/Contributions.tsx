@@ -1,40 +1,29 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
-import Papa from "papaparse";
-
-const csvData = `Name,Title,Text,Website,Backstory,Dynamics,TradeOffs,Duration,Gallery,Cards,RuleBook,MeetingLogs,PlaytestLogs,Flowcharts,QuantitativeAnalysis,Trailer,Visuals,Moodboard
-Samuel Jen,Cool Title,"Text",0,0,100,100,0,0,0,100,100,0,0,0,0,0,0
-Andrei Harbachov,Cool Title,"Text",100,0,0,0,0,0,0,0,0,0,100,100,0,0,0
-Tino Ciccone,Cool Title,"Text",0,100,0,0,0,0,0,0,0,0,0,0,0,0,0
-Gurbaj Sidhu,Cool Title,"Text",0,0,0,0,0,0,0,0,0,0,0,0,0,0,100
-Fatemah Sunderji,Cool Title,"Text",0,0,0,0,0,0,100,0,0,0,0,0,0,0,0`;
+import jsonData from "../assets/contributions.json";
 
 function Contributions() {
   const [contributions, setContributions] = useState([]);
 
   useEffect(() => {
-    const results = Papa.parse(csvData, { header: true });
-    const contributions = results.data.map(row => ({
-      name: row.Name,
-      title: row.Title,
-      text: row.Text,
+    const contributions = jsonData.names.map((name, index) => ({
+      name: name,
+      title: jsonData.title[index],
+      text: jsonData.text[index],
       projectParts: [
-        { part: 'Website', contribution: parseInt(row.Website) },
-        { part: 'Backstory', contribution: parseInt(row.Backstory) },
-        { part: 'Dynamics', contribution: parseInt(row.Dynamics) },
-        { part: 'Trade-Offs', contribution: parseInt(row.TradeOffs) },
-        { part: 'Duration', contribution: parseInt(row.Duration) },
-        { part: 'Gallery', contribution: parseInt(row.Gallery) },
-        { part: 'Cards', contribution: parseInt(row.Cards) },
-        { part: 'Rule Book', contribution: parseInt(row.RuleBook) },
-        { part: 'Meeting Logs', contribution: parseInt(row.MeetingLogs) },
-        { part: 'Playtest Logs', contribution: parseInt(row.PlaytestLogs) },
-        { part: 'Flowcharts', contribution: parseInt(row.Flowcharts) },
-        { part: 'Quantitative Analysis', contribution: parseInt(row.QuantitativeAnalysis) },
-        { part: 'Trailer', contribution: parseInt(row.Trailer) },
-        { part: 'Visuals', contribution: parseInt(row.Visuals) },
-        { part: 'Moodboard', contribution: parseInt(row.Moodboard) },
+        { part: 'Website', contribution: jsonData.website[index] },
+        { part: 'Backstory', contribution: jsonData.backstory[index] },
+        { part: 'Dynamics', contribution: jsonData.dynamics[index] },
+        { part: 'Trade-Offs', contribution: jsonData.tradeoffs[index] },
+        { part: 'Cards', contribution: jsonData.cards[index] },
+        { part: 'Rule Book', contribution: jsonData.rulebook[index] },
+        { part: 'Meeting Logs', contribution: jsonData.meetlogs[index] },
+        { part: 'Playtest Logs', contribution: jsonData.playlogs[index] },
+        { part: 'Flowcharts', contribution: jsonData.flowchart[index] },
+        { part: 'Quantitative Analysis', contribution: jsonData.quantanal[index] },
+        { part: 'Trailer', contribution: jsonData.trailer[index] },
+        { part: 'Visuals', contribution: jsonData.visuals[index] },
       ],
     }));
     console.log(contributions);
@@ -45,7 +34,7 @@ function Contributions() {
     <>
       <Navbar />
       <section className="team-section py-5 ">
-        <h1 className="text-center section-title">Contributions</h1>
+        <h1 className="text-center section-title">Team</h1>
         <div className="container">
           <div className="row justify-content-center">
             {contributions.map((contributor, index) => (

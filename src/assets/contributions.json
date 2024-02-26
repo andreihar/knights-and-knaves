@@ -1,0 +1,18 @@
+{
+	"names": ["Samuel Jen","Andrei Harbachov","Tino Ciccone","Gurbaj Sidhu","Fatemah Sunderji"],
+	"title": ["Cool Title","Cool Title","Cool Title","Cool Title","Cool Title"],
+	"text": ["Text, and such","Text, and such","Text, and such","Text, and such","Text, and such"],
+	"gameDev": [0,0,0,0,0],
+	"website": [0,100,0,0,0],
+	"backstory": [0,0,100,0,0],
+	"dynamics": [100,0,0,0,0],
+	"tradeoffs": [100,0,0,0,0],
+	"cards": [0,0,0,0,100],
+	"rulebook": [100,0,0,0,0],
+	"meetlogs": [100,0,0,0,0],
+	"playlogs": [0,0,0,0,0],
+	"flowchart": [0,100,0,0,0],
+	"quantanal": [0,100,0,0,0],
+	"trailer": [0,0,0,0,0],
+	"visuals": [0,0,0,20,0]
+}

@@ -66,6 +66,11 @@ body::after {
   max-width: 42em;
 }
 
+/* Footer */
+.footer-dark a {
+  color: inherit !important;
+}
+
 /* Home */
 .section-title {
   margin-top: calc(var(--navbar-height) + 10px);

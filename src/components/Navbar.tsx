@@ -31,7 +31,7 @@ function Navbar() {
               </ul>
             </li>
             <li className="nav-item"><Link to='/gallery' className="nav-link">Gallery</Link></li>
-            <li className="nav-item"><Link to='/contributions' className="nav-link">Contributions</Link></li>
+            <li className="nav-item"><Link to='/contributions' className="nav-link">Team</Link></li>
           </ul>
           <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link to='/cards' className="nav-link"><FontAwesomeIcon icon={faAddressBook} className="me-1"/>Cards</Link></li>
