@@ -3,8 +3,20 @@ import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import jsonData from "../assets/contributions.json";
 
+interface ProjectPart {
+  part: string;
+  contribution: number;
+}
+
+interface Contributor {
+  name: string;
+  title: string;
+  text: string;
+  projectParts: ProjectPart[];
+}
+
 function Contributions() {
-  const [contributions, setContributions] = useState([]);
+  const [contributions, setContributions] = useState<Contributor[]>([]);
 
   useEffect(() => {
     const contributions = jsonData.names.map((name, index) => ({

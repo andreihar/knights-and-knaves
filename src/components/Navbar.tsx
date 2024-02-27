@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook, faBook, faFile, faFilePdf } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons'
 import logo from '../assets/react.svg'
 
 function Navbar() {
