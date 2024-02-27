@@ -2,10 +2,12 @@
 	"gameTitle": "Knights and Knaves",
 	"gameSmallTitle": "Mediaeval Deception",
 	"coreStatement": "In this cutthroat game, loyalty is a liability, trust is a luxury, and only the cunning master manipulators emerge victorious",
-	"gameInspiration": "This game idea originated from Samuel Jen’s board game concept, drawing inspiration from his favourite board game genre: social deception games. He was particularly influenced by games such as Coup and One Night Ultimate Werewolf, where players must employ deception to achieve victory. These games are characterised by bluffing, strategic thinking, and betrayal. Expanding upon these fundamental concepts, our team developed Knights and Knaves, which takes chaos and backstabbing to new heights.",
-	"pillarWhat": "A strategic card-based board game where players analyse and strategise their resources to outmanouevre opponents and achieve victory as a cohesive team.",
-	"pillarHow": "Through decisive actions, strategic bluffing, and the potential for betrayals, players must adeptly manage their resources, including health points and action cards, all while coordinating with potential deceptive allies, in their quest for victory.",
-	"pillarWhy": "The game offers players an immersive experience that tests their strategic thinking, communication skills, teamwork, bluffing prowess, and ability to navigate the enticing realm of deception and betrayal to seize victory.",
+	"gameInspiration": "This game idea originated from Samuel Jen’s board game concept, drawing inspiration from his favourite board game genre: social deception games. He was particularly influenced by games such as Coup and One Night Ultimate Werewolf, where players must employ deception to achieve victory. These games are characterised by bluffing, strategic thinking, and betrayal. Expanding upon these fundamental concepts, our team developed Knights and Knaves, which takes chaos and backstabbing to new heights. We also drew inspiration from Gwent for our game card design. Last but not least, our story unfolds in mediaeval times, where mystical wonders and imaginative realms know no bounds. Tino Ciccone drew inspiration from The Hobbit to shape our background narrative, infusing it with adventure and intrigue.",
+	"pillars": {
+		"what": "A strategic card-based board game where players analyse and strategise their resources to outmanouevre opponents and achieve victory as a cohesive team.",
+		"how": "Through decisive actions, strategic bluffing, and the potential for betrayals, players must adeptly manage their resources, including health points and action cards, all while coordinating with potential deceptive allies, in their quest for victory.",
+		"why": "The game offers players an immersive experience that tests their strategic thinking, communication skills, teamwork, bluffing prowess, and ability to navigate the enticing realm of deception and betrayal to seize victory."
+	},
     "timeline": {
         "date1": "1180",
         "event1": "Estoria Flourishes",

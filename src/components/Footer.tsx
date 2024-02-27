@@ -38,7 +38,7 @@ function Footer() {
         <div className="col mb-3">
           <h5>Documentation</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Meeting Logs</a></li>
+            <li className="nav-item mb-2"><Link to='/meeting' className="dnav-link p-0">Meeting Logs</Link></li>
             <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Playtest Logs</a></li>
             <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Flowcharts</a></li>
             <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Quantitative Analysis</a></li>

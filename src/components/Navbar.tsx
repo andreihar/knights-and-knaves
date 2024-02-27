@@ -39,7 +39,7 @@ function Navbar() {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><FontAwesomeIcon icon={faFile} className="me-1"/>Documentation</a>
               <ul className="dropdown-menu dropdown-menu-dark">
-                <li><a href="#" className="dropdown-item">Meeting Logs</a></li>
+                <li><Link to='/meeting' className="dropdown-item">Meeting Logs</Link></li>
                 <li><a href="#" className="dropdown-item">Playtest Logs</a></li>
                 <li><a href="#" className="dropdown-item">Flowcharts</a></li>
                 <li><a href="#" className="dropdown-item">Quantitative Analysis</a></li>
