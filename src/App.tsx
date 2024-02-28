@@ -10,6 +10,7 @@ import Duration from './pages/Duration'
 import Gallery from './pages/Gallery'
 import Contributions from './pages/Contributions'
 import Meeting from './pages/Meeting'
+import Playtest from './pages/Playtest'
 
 function App() {
   const element = useRoutes([
@@ -24,6 +25,7 @@ function App() {
     { path: 'gallery', element: <Gallery /> },
     { path: 'contributions', element: <Contributions /> },
     { path: 'meeting', element: <Meeting /> },
+    { path: 'playtest', element: <Playtest /> },
   ]);
 
   return element;

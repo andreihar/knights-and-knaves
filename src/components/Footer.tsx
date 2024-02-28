@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/react.svg'
+import rulebook from '../assets/pdfs/Rulebook.pdf'
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
         <div className="col mb-3">
           <h5>Game</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0">Rule Book</a></li>
+            <li className="nav-item mb-2"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link p-0">Rule Book</a></li>
             <li className="nav-item mb-2"><Link to='/cards' className="nav-link p-0">Cards</Link></li>
             <li className="nav-item mb-2"><Link to='/gallery' className="nav-link p-0">Gallery</Link></li>
           </ul>
@@ -39,9 +40,9 @@ function Footer() {
           <h5>Documentation</h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-2"><Link to='/meeting' className="dnav-link p-0">Meeting Logs</Link></li>
-            <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Playtest Logs</a></li>
-            <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Flowcharts</a></li>
-            <li className="nav-item mb-2"><a href='#' className="nav-link p-0">Quantitative Analysis</a></li>
+            <li className="nav-item mb-2"><Link to='/playtest' className="dnav-link p-0">Playtest Logs</Link></li>
+            <li className="nav-item mb-2"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link p-0">Flowcharts</a></li>
+            <li className="nav-item mb-2"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link p-0">Quantitative Analysis</a></li>
             <li className="nav-item mb-2"><Link to='/contributions' className="nav-link p-0">Team</Link></li>
           </ul>
         </div>

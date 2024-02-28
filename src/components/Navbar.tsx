@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons'
 import logo from '../assets/react.svg'
+import rulebook from '../assets/pdfs/Rulebook.pdf'
 
 function Navbar() {
   return (
@@ -35,14 +36,14 @@ function Navbar() {
           </ul>
           <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link to='/cards' className="nav-link"><FontAwesomeIcon icon={faAddressBook} className="me-1"/>Cards</Link></li>
-            <li className="nav-item"><a href="#" className="nav-link"><FontAwesomeIcon icon={faBook} className="me-1"/>Rule Book</a></li>
+            <li className="nav-item"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link"><FontAwesomeIcon icon={faBook} className="me-1"/>Rule Book</a></li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><FontAwesomeIcon icon={faFile} className="me-1"/>Documentation</a>
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li><Link to='/meeting' className="dropdown-item">Meeting Logs</Link></li>
-                <li><a href="#" className="dropdown-item">Playtest Logs</a></li>
-                <li><a href="#" className="dropdown-item">Flowcharts</a></li>
-                <li><a href="#" className="dropdown-item">Quantitative Analysis</a></li>
+                <li><Link to='/playtest' className="dropdown-item">Playtest Logs</Link></li>
+                <li><a href={rulebook} target="_blank" rel="noopener noreferrer" className="dropdown-item">Flowcharts</a></li>
+                <li><a href={rulebook} target="_blank" rel="noopener noreferrer" className="dropdown-item">Quantitative Analysis</a></li>
               </ul>
             </li>
           </ul>
