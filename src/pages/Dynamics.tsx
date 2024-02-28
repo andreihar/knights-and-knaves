@@ -12,7 +12,7 @@ function Dynamics() {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">Dynamics</h1>
-              <h4 className="mb-3">Some text?</h4>
+              <h4 className="mb-3">{text.dynamics.header}</h4>
             </div>
           </div>
         </div>

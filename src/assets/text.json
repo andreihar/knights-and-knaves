@@ -35,6 +35,7 @@
 		"description8": "The competition among noble teams reaches its peak as they vie for the Crown Jewel. Only one team will emerge victorious and return to Estoria, claiming honour, praise, and status."
     },
 	"dynamics": {
+		"header": "Unlock Dynamics, Shape Strategy, Achieve Victory!",
 		"description": "The main game dynamic revolves around player interaction through action cards, team identity secrecy, and strategic decision-making throughout the play.",
 		"title1": "Team Secrecy",
 		"text1": "The players' team identity is imperfect information, leading to bluffing and uncertainty. Players must deduce others' identities while concealing their own.",
@@ -50,6 +51,7 @@
 		"text6": "When only one player is remaining, the game ends."
 	},
 	"tradeoffs": {
+		"header": "Navigate Trade-offs, Outmanoeuvre Opponents, Master the Game!",
 		"title1": "Information Gathering vs Team Secrecy",
 		"text1": "To gain others' trust, players may choose to reveal their own identity in exchange for more information. However, the player revealing their identity may be deceiving others, and the information obtained could be false. This adds a layer of challenge and intrigue to the information-gathering process.",
 		"title2": "Risk vs Reward",
@@ -62,6 +64,7 @@
 		"text5": "Given the limited number of action cards available, choosing the right target is crucial. The selection of targets can either lead to a significant victory or a devastating loss if chosen incorrectly."
 	},
 	"duration": {
+		"header": "Maximise Thrills, Minimise Delays!",
 		"title1": "Title1",
 		"text1": "Text1",
 		"title2": "Title2",

@@ -12,7 +12,7 @@ function Duration() {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">Duration</h1>
-              <h4 className="mb-3">Some text?</h4>
+              <h4 className="mb-3">{text.duration.header}</h4>
             </div>
           </div>
         </div>
