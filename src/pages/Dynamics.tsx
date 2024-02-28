@@ -6,7 +6,7 @@ function Dynamics() {
   return (
     <>
       <Navbar/>
-      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url('https://images4.alphacoders.com/600/600976.jpg')`}}>
+      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url('./src/assets/images/dynamics.png')`}}>
         <div className="mask position-absolute top-0 start-0 bottom-0 end-0">
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">

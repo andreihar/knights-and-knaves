@@ -5,7 +5,7 @@ body {
   font-family: "Josefin Sans", sans-serif !important;
 }
 h1, h2, h3, h4, h5, h6, .navbar {
-  font-family: "Marcellus SC",serif;
+  font-family: "Marcellus SC", serif;
 }
 
 /* General */
@@ -19,7 +19,7 @@ html {
   scroll-padding-top: var(--navbar-height);
 }
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url('https://images6.alphacoders.com/451/451408.jpg');
+  background: linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url('./src/assets/images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

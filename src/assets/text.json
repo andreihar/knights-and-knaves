@@ -4,7 +4,7 @@
 	"coreStatement": "In this cutthroat game, loyalty is a liability, trust is a luxury, and only the cunning master manipulators emerge victorious",
 	"gameInspiration": "This game idea originated from Samuel Jen’s board game concept, drawing inspiration from his favourite board game genre: social deception games. He was particularly influenced by games such as Coup and One Night Ultimate Werewolf, where players must employ deception to achieve victory. These games are characterised by bluffing, strategic thinking, and betrayal. Expanding upon these fundamental concepts, our team developed Knights and Knaves, which takes chaos and backstabbing to new heights. We also drew inspiration from Gwent for our game card design. Last but not least, our story unfolds in mediaeval times, where mystical wonders and imaginative realms know no bounds. Tino Ciccone drew inspiration from The Hobbit to shape our background narrative, infusing it with adventure and intrigue.",
 	"pillars": {
-		"what": "A strategic card-based board game where players analyse and strategise their resources to outmanouevre opponents and achieve victory as a cohesive team.",
+		"what": "A strategic card-based board game where players analyse and strategise their resources to outmanoeuvre opponents and achieve victory as a cohesive team.",
 		"how": "Through decisive actions, strategic bluffing, and the potential for betrayals, players must adeptly manage their resources, including health points and action cards, all while coordinating with potential deceptive allies, in their quest for victory.",
 		"why": "The game offers players an immersive experience that tests their strategic thinking, communication skills, teamwork, bluffing prowess, and ability to navigate the enticing realm of deception and betrayal to seize victory."
 	},
@@ -37,29 +37,29 @@
 	"dynamics": {
 		"description": "The main game dynamic revolves around player interaction through action cards, team identity secrecy, and strategic decision-making throughout the play.",
 		"title1": "Team Secrecy",
-		"text1": "Players’ team identity is imperfect information that causes bluffing and uncertainty. Players must deduce other’s identity while concealing their own.",
+		"text1": "The players' team identity is imperfect information, leading to bluffing and uncertainty. Players must deduce others' identities while concealing their own.",
 		"title2": "Action Cards",
-		"text2": "Various action cards to affect the game condition.",
+		"text2": "Various action cards affect the game condition.",
 		"title3": "Player Elimination",
-		"text3": "When the player’s health point runs out, the player’s eliminated.",
+		"text3": "When a player's health points run out, they are eliminated from the game.",
 		"title4": "Strategic Decision-Making",
-		"text4": "Players use action cards to eliminate opponents or protect themselves which involves predicting opponent’s move, detecting other’s bluff, and forming alliances to gain an advantage.",
+		"text4": "Players use action cards to eliminate opponents and protect themselves and their teammates. This involves predicting opponents' moves, detecting bluffing, and forming alliances to gain an advantage.",
 		"title5": "Winning Condition",
-		"text5": "The team with the highest health points wins.",
+		"text5": "The team with the most remaining hearts wins.",
 		"title6": "Ending Condition",
 		"text6": "When only one player is remaining, the game ends."
 	},
 	"tradeoffs": {
 		"title1": "Information Gathering vs Team Secrecy",
-		"text1": "To win others’ trust, the players may need to reveal their own identity to trade for more information, however, the revealer may be lying and the information can be fake. This will make the whole information gathering process more challenging and interesting.",
+		"text1": "To gain others' trust, players may choose to reveal their own identity in exchange for more information. However, the player revealing their identity may be deceiving others, and the information obtained could be false. This adds a layer of challenge and intrigue to the information-gathering process.",
 		"title2": "Risk vs Reward",
-		"text2": "Some of the special action cards like “Energy drink” that can increase the damage to 2 points could eliminate your enemy quicker, yet you may also accidentally kill your own teammate faster.",
+		"text2": "Certain special action cards, such as the Knight's Potion, can increase damage to 2 points, potentially allowing you to eliminate your enemy more quickly. However, there's also the risk of accidentally causing harm to your teammate, adding a strategic element of risk and reward to your decisions.",
 		"title3": "Alliances vs Betrayal",
-		"text3": "When the player numbers are not divisible by 3, some teams may have fewer players. Thus, they may form temporary alliances and coordinate attacks on the third group. However, once their common enemy is eliminated, they will have to turn against each other. A cold-hearted betrayal moment.",
+		"text3": "When the number of players is not divisible by 3, certain teams may find themselves with fewer members. This situation can lead to the formation of temporary alliances, allowing them to coordinate attacks on the third group. However, once their common enemies are eliminated, they will inevitably turn against each other — a moment of cold-hearted betrayal.",
 		"title4": "Bluffing and Deception",
-		"text4": " Players are allowed to bluff about any information, however, bluffing carries the risk of being exposed and thus loses other players’ trust.",
+		"text4": "Players have the freedom to bluff about any information they choose. However, bluffing carries the risk of being exposed, which can result in losing the trust of other players.",
 		"title5": "Target Selection",
-		"text5": "With the limited number of action cards, choosing which target to aim is critical. The target selection can lead to a big win or a huge loss if judges incorrectly."
+		"text5": "Given the limited number of action cards available, choosing the right target is crucial. The selection of targets can either lead to a significant victory or a devastating loss if chosen incorrectly."
 	},
 	"duration": {
 		"title1": "Title1",

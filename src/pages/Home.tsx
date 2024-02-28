@@ -82,17 +82,17 @@ function Home() {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1 container">
           <div className="row justify-content-center">
             <div className="col-lg-3 text-center me-3 my-5">
-              <img src="https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src="./src/assets/images/pillar1.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">What</h2>
               <p>{text.pillars.what}</p>
             </div>
             <div className="col-lg-3 text-center me-3 my-5">
-              <img src="https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src="./src/assets/images/pillar2.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">How</h2>
               <p>{text.pillars.how}</p>
             </div>
             <div className="col-lg-3 text-center my-5">
-              <img src="https://t3.ftcdn.net/jpg/00/32/96/02/360_F_32960287_AMQe7m39khZEt8U5oaI0htudEmSA5qA5.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src="./src/assets/images/pillar3.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">Why</h2>
               <p>{text.pillars.why}</p>
             </div>

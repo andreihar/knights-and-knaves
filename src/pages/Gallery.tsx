@@ -26,26 +26,6 @@ function Gallery() {
                   <img src={gameboard} className="img-fluid" alt="..."/>
                   <h1>Gameboard</h1>
                 </div>
-                <div className="image-container">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tokyo_Tower_2023.jpg" className="img-fluid" alt="..."/>
-                  <h1>Text</h1>
-                </div>
-                <div className="image-container">
-                  <img src="https://images.hdqwalls.com/download/the-witcher-3-wild-hunt-4-1024x768.jpg" className="img-fluid" alt="..."/>
-                  <h1>Text</h1>
-                </div>
-                <div className="image-container">
-                  <img src="https://images.hdqwalls.com/download/the-witcher-3-wild-hunt-4-1024x768.jpg" className="img-fluid" alt="..."/>
-                  <h1>Text</h1>
-                </div>
-                <div className="image-container">
-                  <img src="https://images.hdqwalls.com/download/the-witcher-3-wild-hunt-4-1024x768.jpg" className="img-fluid" alt="..."/>
-                  <h1>Text</h1>
-                </div>
-                <div className="image-container">
-                  <img src="https://images.hdqwalls.com/download/the-witcher-3-wild-hunt-4-1024x768.jpg" className="img-fluid" alt="..."/>
-                  <h1>Text</h1>
-                </div>
             </Masonry>
           </div>
         </div>
