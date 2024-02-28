@@ -31,15 +31,17 @@ function Duration() {
               </p>
               <hr />
               <h1>{text.duration.title1}</h1>
-              <p className="mb-4">{text.duration.text1}</p>
+              <p className="mb-4">{text.duration.text11}</p>
+              <p className="mb-4">{text.duration.text12}</p>
               <h1>{text.duration.title2}</h1>
-              <p className="mb-4">{text.duration.text2}</p>
+              <p className="mb-4">{text.duration.text21}</p>
+              <ul className="fs-5">
+                <li>Playtesting #1, Group of 4 – <span className="text-primary">27</span> minutes</li>
+                <li>Playtesting #2, Group of 4 – <span className="text-primary">20</span> minutes</li>
+              </ul>
+              <p className="mb-4">{text.duration.text22}</p>
               <h1>{text.duration.title3}</h1>
               <p className="mb-4">{text.duration.text3}</p>
-              <h1>{text.duration.title4}</h1>
-              <p className="mb-4">{text.duration.text4}</p>
-              <h1>{text.duration.title5}</h1>
-              <p className="mb-5">{text.duration.text5}</p>
             </article>
           </div>
         </div>

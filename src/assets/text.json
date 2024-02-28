@@ -65,16 +65,14 @@
 	},
 	"duration": {
 		"header": "Maximise Thrills, Minimise Delays!",
-		"title1": "Title1",
-		"text1": "Text1",
-		"title2": "Title2",
-		"text2": "Text2",
-		"title3": "Title3",
-		"text3": "Text3",
-		"title4": "Title4",
-		"text4": "Text4",
-		"title5": "Title5",
-		"text5": "Text5"
+		"title1": "Play Session Overview",
+		"text11": "A typical play session commences with a brief 6-minute preparatory phase in order to shuffle the cards, allocate rubies to players, and explain both the fundamental rules and more intricate interactions of the cards to prevent any confusion during gameplay.",
+		"text12": "As the game progresses, players engage in fewer discussions as everyone becomes familiar with each other's identities. Paired with the shrinking deck size, this leads to a decrease in the average turn time, starting at 40 seconds in the early stages and dwindling to 20 seconds or even less at the end.",
+		"title2": "Playtesting Insights",
+		"text21": "The outcomes from our playtesting sessions are as follows:",
+		"text22": "The initial playthrough lasted longer than subsequent ones, as it was the team's first attempt at the game, and we were still grasping the nuances of the rules. It's worth noting that sessions, where players refrain from collaborating with their teammates, tend to take significantly longer to complete, primarily due to the limited number of attacking cards and the time it takes to find the remaining ones in the deck. In games where players strategise with their teammates, it becomes easier to identify targets, and players are less likely to squander attacking cards unnecessarily.",
+		"title3": "Projected Duration",
+		"text3": "We anticipate that an average playthrough will resemble our second playtesting session, or roughly 20 minutes for a group of 4 people."
 	},
 	"factions": {
 		"titleRed": "Knights of Valour",
