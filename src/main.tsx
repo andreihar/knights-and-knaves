@@ -9,7 +9,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/board-game">
       <ScrollToTop />
       <App />
     </BrowserRouter>
