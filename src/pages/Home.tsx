@@ -2,13 +2,17 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import videoSource from '../assets/images/trailer.mp4';
 import text from '../assets/text.json';
+import heroImage from '../assets/images/hero.jpg';
+import pillar1Image from '../assets/images/pillar1.jpg';
+import pillar2Image from '../assets/images/pillar2.jpg';
+import pillar3Image from '../assets/images/pillar3.jpg';
 
 function Home() {
   return (
     <>
       <Navbar />
       {/* Hero */}
-      <header id="hero" className="d-flex text-center text-bg-dark" >
+      <header id="hero" className="d-flex text-center text-bg-dark" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url(${heroImage})` }} >
         <div className="cover-container d-flex w-100 min-vh-100 p-3 mx-auto flex-column justify-content-center">
           <div className="px-3">
             <h1 className="p-3 pb-0 display-2 text-primary text-nowrap">{text.gameTitle}</h1>
@@ -82,17 +86,17 @@ function Home() {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1 container">
           <div className="row justify-content-center">
             <div className="col-lg-3 text-center me-3 my-5">
-              <img src="./src/assets/images/pillar1.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src={pillar1Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">What</h2>
               <p>{text.pillars.what}</p>
             </div>
             <div className="col-lg-3 text-center me-3 my-5">
-              <img src="./src/assets/images/pillar2.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src={pillar2Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">How</h2>
               <p>{text.pillars.how}</p>
             </div>
             <div className="col-lg-3 text-center my-5">
-              <img src="./src/assets/images/pillar3.jpg" alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
+              <img src={pillar3Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
               <h2 className="fw-normal mb-3">Why</h2>
               <p>{text.pillars.why}</p>
             </div>

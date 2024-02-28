@@ -1,12 +1,13 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import text from "../assets/text.json";
+import durationBg from "../assets/images/duration.jpg";
 
 function Duration() {
   return (
     <>
       <Navbar/>
-      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url('./src/assets/images/duration.jpg')`}}>
+      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url(${durationBg})`}}>
         <div className="mask position-absolute top-0 start-0 bottom-0 end-0">
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">

@@ -19,7 +19,7 @@ html {
   scroll-padding-top: var(--navbar-height);
 }
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url('./src/assets/images/hero.jpg');
+  background: linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha)));
   background-repeat: no-repeat;
   background-size: cover;
 }
