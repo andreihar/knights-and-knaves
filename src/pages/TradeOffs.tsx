@@ -24,10 +24,8 @@ function TradeOffs() {
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> trade-offs</h2>
               <p className="text-dark-emphasis align-items-center d-flex">by: 
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-dark-emphasis align-items-center d-flex">
-                  <img src="https://media.licdn.com/dms/image/C5603AQFFIopjM9nf6Q/profile-displayphoto-shrink_800_800/0/1647027164110?e=1712793600&v=beta&t=O37VyNeB-kSIGdJgyBZT0kvhOo4h0tT07D9vXombc2Q" alt="User Picture" width={32} height={32} className="rounded-circle ms-2"/>
-                  <span className="text-uppercase fs-5 ms-2">Samuel Jen</span>
-                </a>
+                <img src="https://media.licdn.com/dms/image/C5603AQFFIopjM9nf6Q/profile-displayphoto-shrink_800_800/0/1647027164110?e=1712793600&v=beta&t=O37VyNeB-kSIGdJgyBZT0kvhOo4h0tT07D9vXombc2Q" alt="User Picture" width={32} height={32} className="rounded-circle ms-2"/>
+                <span className="text-uppercase fs-5 ms-2">Samuel Jen</span>
               </p>
               <hr />
               <h1>{text.tradeoffs.title1}</h1>

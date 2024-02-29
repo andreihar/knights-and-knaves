@@ -24,10 +24,8 @@ function Duration() {
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> duration</h2>
               <p className="text-dark-emphasis align-items-center d-flex">by: 
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-dark-emphasis align-items-center d-flex">
-                  <img src="https://media.licdn.com/dms/image/C5603AQFFIopjM9nf6Q/profile-displayphoto-shrink_800_800/0/1647027164110?e=1712793600&v=beta&t=O37VyNeB-kSIGdJgyBZT0kvhOo4h0tT07D9vXombc2Q" alt="User Picture" width={32} height={32} className="rounded-circle ms-2"/>
-                  <span className="text-uppercase fs-5 ms-2">Samuel Jen</span>
-                </a>
+                <img src="https://media.licdn.com/dms/image/D5603AQGjT7AIU4Kl6A/profile-displayphoto-shrink_400_400/0/1687413339437?e=1714608000&v=beta&t=ONTqmM_F9RzULgE4o3d2mhyqbRl8wxYuBGjB3jmg0O4" alt="User Picture" width={32} height={32} className="rounded-circle ms-2"/>
+                <span className="text-uppercase fs-5 ms-2">Andrei Harbachov</span>
               </p>
               <hr />
               <h1>{text.duration.title1}</h1>

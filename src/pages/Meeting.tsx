@@ -6,6 +6,7 @@ import feb1 from '../assets/pdfs/meeting/Feb1.pdf';
 import feb8 from '../assets/pdfs/meeting/Feb8.pdf';
 import feb15 from '../assets/pdfs/meeting/Feb15.pdf';
 import feb22 from '../assets/pdfs/meeting/Feb22.pdf';
+import feb27 from '../assets/pdfs/meeting/Feb27.pdf';
 
 function Meeting() {
   const pdfs = [
@@ -13,6 +14,7 @@ function Meeting() {
     { title: 'February 8', src: feb8 },
     { title: 'February 15', src: feb15 },
     { title: 'February 22', src: feb22 },
+    { title: 'February 27', src: feb27 },
   ];
 
   return (
@@ -24,7 +26,7 @@ function Meeting() {
           <div className="container">
             <div className="row">
               {pdfs.map((pdf, index) => (
-                <div className="col-sm-3" key={index}>
+                <div className="col-sm-3 mb-3" key={index}>
                   <div className="card">
                     <div className="card-body text-center">
                       <h3 className="card-title text-primary">{pdf.title}</h3>

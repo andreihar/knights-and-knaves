@@ -23,7 +23,7 @@ function Playtest() {
                 <div className="col-sm-3" key={index}>
                   <div className="card">
                     <div className="card-body text-center">
-                      <h3 className="card-title text-primary">Playtest #{index}</h3>
+                      <h3 className="card-title text-primary">Playtest #{index+1}</h3>
                       <h6 className="card-subtitle mb-2 text-muted">{pdf.date}</h6>
                       <a href={pdf.src} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Open PDF</a>
                     </div>
