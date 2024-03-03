@@ -11,6 +11,7 @@ import Gallery from './pages/Gallery'
 import Contributions from './pages/Contributions'
 import Meeting from './pages/Meeting'
 import Playtest from './pages/Playtest'
+import QuantAnal from './pages/QuantAnal'
 
 function App() {
   const element = useRoutes([
@@ -26,6 +27,7 @@ function App() {
     { path: 'contributions', element: <Contributions /> },
     { path: 'meeting', element: <Meeting /> },
     { path: 'playtest', element: <Playtest /> },
+    { path: 'analysis', element: <QuantAnal /> },
   ]);
 
   return element;

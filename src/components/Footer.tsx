@@ -34,6 +34,7 @@ function Footer() {
             <li className="nav-item mb-2"><Link to='/dynamics' className="nav-link p-0">Dynamics</Link></li>
             <li className="nav-item mb-2"><Link to='/tradeoffs' className="nav-link p-0">Trade-offs</Link></li>
             <li className="nav-item mb-2"><Link to='/duration' className="nav-link p-0">Duration</Link></li>
+            <li className="nav-item mb-2"><Link to='/analysis' className="nav-link p-0">Quantitative Analysis</Link></li>
           </ul>
         </div>
         <div className="col mb-3">
@@ -42,7 +43,6 @@ function Footer() {
             <li className="nav-item mb-2"><Link to='/meeting' className="dnav-link p-0">Meeting Logs</Link></li>
             <li className="nav-item mb-2"><Link to='/playtest' className="dnav-link p-0">Playtest Logs</Link></li>
             <li className="nav-item mb-2"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link p-0">Flowcharts</a></li>
-            <li className="nav-item mb-2"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link p-0">Quantitative Analysis</a></li>
             <li className="nav-item mb-2"><Link to='/contributions' className="nav-link p-0">Team</Link></li>
           </ul>
         </div>

@@ -29,6 +29,7 @@ function Navbar() {
                 <li><Link to='/dynamics' className="dropdown-item">Dynamics</Link></li>
                 <li><Link to='/tradeoffs' className="dropdown-item">Trade-offs</Link></li>
                 <li><Link to='/duration' className="dropdown-item">Duration</Link></li>
+                <li><Link to='/analysis' className="dropdown-item">Quantitative Analysis</Link></li>
               </ul>
             </li>
             <li className="nav-item"><Link to='/gallery' className="nav-link">Gallery</Link></li>
@@ -43,7 +44,6 @@ function Navbar() {
                 <li><Link to='/meeting' className="dropdown-item">Meeting Logs</Link></li>
                 <li><Link to='/playtest' className="dropdown-item">Playtest Logs</Link></li>
                 <li><a href={rulebook} target="_blank" rel="noopener noreferrer" className="dropdown-item">Flowcharts</a></li>
-                <li><a href={rulebook} target="_blank" rel="noopener noreferrer" className="dropdown-item">Quantitative Analysis</a></li>
               </ul>
             </li>
           </ul>

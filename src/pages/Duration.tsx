@@ -18,7 +18,7 @@ function Duration() {
         </div>
       </div>
       
-      <main className="container mt-5">
+      <main className="container mt-5 lh-lg">
         <div className="row g-5">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">

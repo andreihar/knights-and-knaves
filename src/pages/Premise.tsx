@@ -25,7 +25,7 @@ function Premise() {
               <div id="content">
               <ul className="timeline">
                 {events.map((event, index) => (
-                  <li className="event" key={index}>
+                  <li className="event lh-base" key={index}>
                     <h5>{event.date}</h5>
                     <h3>{event.event}</h3>
                     <p>{event.description}</p>
