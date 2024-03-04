@@ -39,40 +39,39 @@ body {
   background-size: cover;
   position: relative;
 }
-body::before, body::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  z-index: 2;
-  box-sizing: border-box;
-}
-body::before {
-  top: 16px;
-  left: 16px;
-  right: 16px;
-  bottom: 16px;
-  border: 2px solid #000;
-  opacity: .3;
-}
-body::after {
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  border: 1px solid #000;
-  opacity: .2;
+@media (min-width: 600px) {
+  body::before, body::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+  body::before {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    border: 2px solid #000;
+    opacity: .3;
+  }
+  body::after {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #000;
+    opacity: .2;
+  }
 }
 .cover-container {
   max-width: 42em;
 }
 
 /* Header */
-.navbar {
-  max-height: var(--navbar-height);
-}
 .navbar-logo {
-  height: 2em; /* This will make the image as tall as the line-height of the text in the navbar */
-  width: auto; /* This will maintain the aspect ratio of the image */
+  height: 1.75em;
+  width: auto;
 }
 
 /* Footer */
