@@ -15,7 +15,7 @@ function Home() {
       <header id="hero" className="d-flex text-center text-bg-dark" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, var(--hero-alpha)), rgba(0, 0, 0, var(--hero-alpha))), url(${heroImage})` }} >
         <div className="cover-container d-flex w-100 min-vh-100 p-3 mx-auto flex-column justify-content-center">
           <div className="px-3">
-            <h1 className="p-3 pb-0 display-2 text-primary text-nowrap">{text.gameTitle}</h1>
+            <h1 className="p-3 pb-0 display-2 text-primary">{text.gameTitle}</h1>
             <h1 className="p-3 pt-0 text-light mb-5">{text.gameSmallTitle}</h1>
             <p className="lead">
               <a href="#trailer" className="button">Watch Trailer</a>

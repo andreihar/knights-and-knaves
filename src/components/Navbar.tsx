@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons'
-import logo from '../assets/react.svg'
+import logo from '../assets/logo.png'
 import rulebook from '../assets/pdfs/Rulebook.pdf'
 
 function Navbar() {
   return (
     <nav className={'navbar navbar-expand-lg navbar-dark bg-dark fixed-top'}>
       <div className="container">
-        <Link to='/' className="navbar-brand"><img src={logo} alt="Logo"/></Link>
+        <Link to='/' className="navbar-brand"><img src={logo} alt="Logo" className="navbar-logo" /></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
