@@ -1,6 +1,6 @@
 {
-  "homepage": "https://andreihar.github.io/board-game",
-  "name": "board-game",
+  "homepage": "https://andreihar.github.io/knights-and-knaves",
+  "name": "knights-and-knaves",
   "private": true,
   "version": "0.0.0",
   "type": "module",
