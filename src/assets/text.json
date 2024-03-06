@@ -9,22 +9,22 @@
 		"why": "The game offers players an immersive experience that tests their strategic thinking, communication skills, teamwork, bluffing prowess, and ability to navigate the enticing realm of deception and betrayal to seize victory."
 	},
     "timeline": {
-        "date1": "1180",
-        "event1": "Estoria Flourishes",
-        "description1": "The Kingdom of Estoria thrives under the rule of King Aldric the Wise.",
-        "date2": "1188",
-        "event2": "The Theft of the Crown Jewel",
-        "description2": "Martha, a mysterious witch, steals the Crown Jewel, a powerful artifact that has protected the kingdom for centuries.",
-        "date3": "1189",
-        "event3": "Rise of Dark Forces",
-        "description3": "Chaos erupts in Estoria as dark forces emerge, threatening the kingdom's stability and peace.",
+		"date1": "1180",
+		"event1": "Estoria Flourishes",
+		"description1": "The Kingdom of Estoria thrives under the rule of King Aldric the Wise.",
+		"date2": "1188",
+		"event2": "The Theft of the Crown Jewel",
+		"description2": "Martha, a mysterious witch, steals the Crown Jewel, a powerful artifact that has protected the kingdom for centuries.",
+		"date3": "1189",
+		"event3": "Rise of Dark Forces",
+		"description3": "Chaos erupts in Estoria as dark forces emerge, threatening the kingdom's stability and peace.",
 		"date4": "1190",
-        "event4": "Formation of Noble Teams",
-        "description4": "King Aldric organises six noble teams to retrieve the stolen Crown Jewel: the Knights of Valour, the Royal Crew, the Shadow Brotherhood, the Iron Legion, the Wolf Pack, and the Noble Squad.",
-        "date5": "1191",
-        "event5": "Hazardous Journeys Begin",
-        "description5": "The noble teams embark on hazardous journeys, encountering dangers and betrayals along the way.",
-        "date6": "1192",
+  		"event4": "Call for Aid from Noble Teams",
+    	"description4": "King Aldric, facing the crisis of the stolen Crown Jewel, calls upon three noble teams to aid in its recovery: the Infernal Legion, the Oakheart Hanse, and the Shadow Brotherhood.",
+		"date5": "1191",
+		"event5": "Hazardous Journeys Begin",
+		"description5": "The noble teams embark on hazardous journeys, encountering dangers and betrayals along the way.",
+		"date6": "1192",
 		"event6": "Defeat of Witch Martha",
 		"description6": "Witch Martha is defeated, but tensions rise among the noble teams as they compete for control of the Crown Jewel, each believing they can bring peace back to Estoria.",
 		"date7": "1193",
@@ -33,7 +33,15 @@
 		"date8": "CURRENT",
 		"event8": "The Final Showdown",
 		"description8": "The competition among noble teams reaches its peak as they vie for the Crown Jewel. Only one team will emerge victorious and return to Estoria, claiming honour, praise, and status."
-    },
+	},
+	"factions": {
+		"titleRed": "Infernal Legion",
+		"textRed": "The Infernal Legion, draped in crimson, embodies the fiery spirit of battle. With their demonic-like insignia, they are rumoured to wield arcane flames, drawing strength from the depths of chaos itself. Originating from the tumultuous events following the theft of the Crown Jewel, they are driven by a desire to restore order through force, willing to crush any opposition that stands in their path. Led by the noble sons of Estoria, with Crown Prince Cedric Aumont at the helm, they see themselves as the guardians of the kingdom's future, believing that only their flames can incinerate the encroaching darkness and bring forth a new dawn of prosperity.",
+		"titleGreen": "Oakheart Hanse",
+		"textGreen": "The Oakheart Hanse, draped in vibrant green, comprises a band of foreign mercenaries, a diverse group of adventurers and warriors from distant lands. Their emblem, a leaf, symbolises their nomadic nature and adaptability. Existing before the theft of the Crown Jewel, they've long sought contracts and riches, bound by a shared thirst for adventure. Drawn into the conflict to recover the artifact, they offer a unique advantage as impartial outsiders unaffected by Estoria's politics. Navigating with cunning, their loyalty lies with the highest bidder as they strive for victory in Estoria's chaos.",
+		"titleBlue": "Shadow Brotherhood",
+		"textBlue": "The Shadow Brotherhood, draped in midnight blue, operates as an elite clandestine group within Estoria. Their emblem, resembling a sharp arrow, signifies their swift and precise actions. Originating from diverse backgrounds, they were chosen for their unparallelled skills in espionage, sabotage, and covert operations. Established following the theft of the Crown Jewel, they are dedicated to protecting the kingdom from within, employing any means necessary to achieve their objectives. Masters of manipulation and deception, they play a pivotal role in the struggle for control of the artifact, their true motives shrouded in mystery as they navigate the intricate webs of intrigue that ensnare the realm."
+	},
 	"dynamics": {
 		"header": "Unlock Dynamics, Shape Strategy, Achieve Victory!",
 		"description": "The main game dynamic revolves around player interaction through action cards, team identity secrecy, and strategic decision-making throughout the play.",
@@ -103,13 +111,5 @@
 		"title8": "Strategic Depth and Player Interaction",
 		"text81": "We have introduced additional rules to encourage strategic depth and player interaction, particularly regarding team identity bluffing.",
 		"text82": "Players can now check their identity only once at the start of the game, highlighting the crucial roles of deduction, strategic deception, and resource management of the King's Intel card throughout gameplay."
-	},
-	"factions": {
-		"titleRed": "Knights of Valour",
-		"textRed": "The Knights of Valour are a group of noble knights who are loyal to the king and are determined to retrieve the Crown Jewel to restore peace to Estoria. They are known for their bravery, chivalry, and unwavering loyalty to the king.",
-		"titleBlue": "Royal Crew",
-		"textBlue": "The Royal Crew is a team of skilled archers and warriors who are fiercely loyal to the king. They are known for their precision, agility, and unwavering dedication to the king.",
-		"titleGreen": "Shadow Brotherhood",
-		"textGreen": "The Shadow Brotherhood is a group of secretive rogues and assassins who are determined to retrieve the Crown Jewel to restore peace to Estoria. They are known for their stealth, cunning, and unwavering dedication to the king."
 	}
 }

@@ -43,7 +43,8 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
                 <div className="d-flex align-items-center gap-2">
                   <img src={teamPicture} alt="Red" style={{maxWidth: '75px'}}/>
                   <h1 className="display-4 lh-1" style={{color:colour}}>{character.name}</h1>
-                  <button type="button" className="btn-close fs-3 ms-auto" onClick={onRequestClose}></button>
+                  {/* <button type="button" className="btn-close fs-3 ms-auto position-absolute" style={{left: '0px'}} onClick={onRequestClose}></button> */}
+                  <button type="button" className="btn-close fs-3 ms-auto position-absolute" style={{transform: 'translateX(-80px)'}} onClick={onRequestClose}></button>
                 </div>
                 <p className="my-5">{character.description}</p>
               </div>

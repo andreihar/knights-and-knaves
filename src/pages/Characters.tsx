@@ -74,7 +74,7 @@ const Characters = () => {
               <div className="col d-flex gap-3">
                 {redTeam.map((character, index) => (
                   <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text">
+                  <div key={index} className="img-text text-center">
                     <img src={character.picture} alt="Card" className="character-img" />
                     <h3>{character.name}</h3>
                   </div>
@@ -93,7 +93,7 @@ const Characters = () => {
               <div className="col d-flex gap-3">
                 {greenTeam.map((character, index) => (
                   <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text">
+                  <div key={index} className="img-text text-center">
                     <img src={character.picture} alt="Card" className="character-img" />
                     <h3>{character.name}</h3>
                   </div>
@@ -126,7 +126,7 @@ const Characters = () => {
               <div className="col d-flex gap-3">
                 {blueTeam.map((character, index) => (
                   <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text">
+                  <div key={index} className="img-text text-center">
                     <img src={character.picture} alt="Card" className="character-img" />
                     <h3>{character.name}</h3>
                   </div>
