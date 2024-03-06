@@ -3,17 +3,6 @@ import Footer from '../components/Footer'
 import text from '../assets/text.json'
 
 function Premise() {
-  const events = [
-    { date: text.timeline.date1, event: text.timeline.event1, description: text.timeline.description1 },
-    { date: text.timeline.date2, event: text.timeline.event2, description: text.timeline.description2 },
-    { date: text.timeline.date3, event: text.timeline.event3, description: text.timeline.description3 },
-    { date: text.timeline.date4, event: text.timeline.event4, description: text.timeline.description4 },
-    { date: text.timeline.date5, event: text.timeline.event5, description: text.timeline.description5 },
-    { date: text.timeline.date6, event: text.timeline.event6, description: text.timeline.description6 },
-    { date: text.timeline.date7, event: text.timeline.event7, description: text.timeline.description7 },
-    { date: text.timeline.date8, event: text.timeline.event8, description: text.timeline.description8 },
-  ];
-
   return (
     <>
       <Navbar />
@@ -23,15 +12,19 @@ function Premise() {
           <div className="row">
             <div className="col-md-12">
               <div id="content">
-              <ul className="timeline">
-                {events.map((event, index) => (
-                  <li className="event lh-base" key={index}>
-                    <h5>{event.date}</h5>
-                    <h3>{event.event}</h3>
-                    <p>{event.description}</p>
-                  </li>
-                ))}
-              </ul>
+                <ul className="timeline">
+                  {Object.keys(text.timeline).filter(key => key.startsWith('date')).map((key, index) => {
+                    const eventKey = `event${index + 1}`;
+                    const descriptionKey = `description${index + 1}`;
+                    return (
+                      <li className="event lh-base" key={index}>
+                        <h5>{(text.timeline as {[key: string]: string})[key]}</h5>
+                        <h3>{(text.timeline as {[key: string]: string})[eventKey]}</h3>
+                        <p>{(text.timeline as {[key: string]: string})[descriptionKey]}</p>
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </div>
           </div>

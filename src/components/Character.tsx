@@ -1,4 +1,3 @@
-// Character.tsx
 import React from 'react';
 import Modal from 'react-modal';
 import { CharClass } from "../models/CharClass";

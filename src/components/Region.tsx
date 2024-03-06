@@ -1,4 +1,3 @@
-// Character.tsx
 import React from 'react';
 import Modal from 'react-modal';
 import { RegionClass } from "../models/RegionClass";
