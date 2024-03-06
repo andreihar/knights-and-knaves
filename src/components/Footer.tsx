@@ -48,7 +48,7 @@ function Footer() {
         </div>
         </div>
         <div className="d-flex flex-column flex-sm-row justify-content-between pt-4 border-top">
-          <p>© 2023 Company, Inc. All rights reserved.</p>
+          <p>© 2024 Andrei Harbachov. All rights reserved.</p>
         </div>
       </footer>
     </div>
