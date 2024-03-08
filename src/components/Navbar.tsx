@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons'
 import logo from '../assets/logo.png'
 import rulebook from '../assets/pdfs/Rulebook.pdf'
+import flowcharts from '../assets/pdfs/Flowcharts.pdf'
 
 function Navbar() {
   return (
@@ -43,7 +44,7 @@ function Navbar() {
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li><Link to='/meeting' className="dropdown-item">Meeting Logs</Link></li>
                 <li><Link to='/playtest' className="dropdown-item">Playtest Logs</Link></li>
-                <li><a href={rulebook} target="_blank" rel="noopener noreferrer" className="dropdown-item">Flowcharts</a></li>
+                <li><a href={flowcharts} target="_blank" rel="noopener noreferrer" className="dropdown-item">Flowcharts</a></li>
               </ul>
             </li>
           </ul>
