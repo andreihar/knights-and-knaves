@@ -56,7 +56,7 @@
 		"title5": "Winning Condition",
 		"text5": "The team with the most remaining hearts wins.",
 		"title6": "Ending Condition",
-		"text6": "When only one player is remaining, the game ends."
+		"text6": "The game can conclude under various circumstances. If more than half of the players are eliminated and the remaining players unanimously agree to end the game, it may come to a close. Additionally, the game is forced to end if only one player remains alive, or if there are no more cards available to draw."
 	},
 	"tradeoffs": {
 		"header": "Navigate Trade-offs, Outmanoeuvre Opponents, Master the Game!",
