@@ -326,20 +326,6 @@ button {
 .character-img {
   max-height: 400px;
 }
-.modal-body {
-  position: absolute;
-  bottom: 28px;
-  left: 100px;
-  width: 600px;
-}
-.background-section {
-  width: 50%;
-  background: url('https://assetsio.reedpopcdn.com/the-witcher-3-jenny-o-the-woods-how-to-kill-the-nightwraith-3696-1432128535317.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp') no-repeat center center / cover;
-  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
-}
-.text-section {
-  width: 50%;
-}
 
 /* Storyworld */
 .border-frame::before {
@@ -354,6 +340,13 @@ button {
   bottom: 10px;
   border: 2px solid #fff;
   opacity: .3;
+}
+.modal-body {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 28px;
+  left: 100px;
+  width: 600px;
 }
 
 /* Description */

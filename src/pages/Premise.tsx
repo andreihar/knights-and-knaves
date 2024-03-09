@@ -8,7 +8,7 @@ function Premise() {
       <Navbar />
       <section className="min-vh-100 d-flex flex-column mb-5">
         <h1 className="text-center section-title">Premise</h1>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
               <div id="content">

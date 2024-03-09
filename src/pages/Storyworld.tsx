@@ -3,6 +3,7 @@ import { defaultRegions } from "../assets/DefaultRegions"
 import Region from '../components/Region';
 import { RegionClass } from '../models/RegionClass';
 import Navbar from '../components/Navbar';
+import regions from '../assets/images/regions.jpg'
 
 function Storyworld() {
   const [region, setRegion] = useState<RegionClass | null>(null);
@@ -21,9 +22,9 @@ function Storyworld() {
     <>
     <Navbar />
     <section className="min-vh-100 d-flex flex-column" style={{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.thewitcher.com/build/images/bg-openworld-7ab028a0..jpg')`,
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${regions})`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center'
+      backgroundPosition: 'top'
     }}>
       <div className="d-flex flex-column justify-content-center flex-grow-1">
         <div className="container px-4 py-5">
