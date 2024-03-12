@@ -3,10 +3,27 @@ import Footer from '../components/Footer'
 import Masonry from 'react-masonry-css'
 
 // Gallery Images
-import diceRubies from '../assets/gallery/dice_rubies.jpg'
-import gameboard from '../assets/gallery/gameboard.jpg'
+import dice from '../assets/gallery/dice.jpg'
+import rubies from '../assets/gallery/rubies.jpg'
+import cardsHand from '../assets/gallery/cards hand.jpg'
+import backside from '../assets/gallery/backside.jpg'
+import cardsAll from '../assets/gallery/cards all.jpg'
+import cards from '../assets/gallery/cards.jpg'
+import prototypes from '../assets/gallery/prototypes.jpg'
+import moodboard from '../assets/gallery/moodboard.png'
 
 function Gallery() {
+  const images = [
+    { src: cards, title: 'Cards' },
+    { src: backside, title: 'Backside of Cards' },
+    { src: cardsHand, title: 'Cards in Hand'},
+    { src: dice, title: 'Dice' },
+    { src: rubies, title: 'Rubies' },
+    { src: cardsAll, title: 'All Cards' },
+    { src: prototypes, title: 'Prototype Cards' },
+    { src: moodboard, title: 'Moodboard' }
+  ];
+
   return (
     <>
       <Navbar />
@@ -18,14 +35,12 @@ function Gallery() {
               breakpointCols={3}
               className="my-masonry-grid"
               columnClassName="my-masonry-grid_column">
-                <div className="image-container">
-                  <img src={diceRubies} className="img-fluid" alt="..."/>
-                  <h1>Dice and Rubies</h1>
-                </div>
-                <div className="image-container">
-                  <img src={gameboard} className="img-fluid" alt="..."/>
-                  <h1>Gameboard</h1>
-                </div>
+                {images.map((image, index) => (
+                  <div key={index} className="image-container">
+                    <img src={image.src} className="img-fluid" alt={image.title}/>
+                    <h1>{image.title}</h1>
+                  </div>
+                ))}
             </Masonry>
           </div>
         </div>

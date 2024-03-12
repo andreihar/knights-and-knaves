@@ -8,7 +8,7 @@ import Dynamics from './pages/Dynamics'
 import TradeOffs from './pages/TradeOffs'
 import Duration from './pages/Duration'
 import Gallery from './pages/Gallery'
-import Contributions from './pages/Contributions'
+import Team from './pages/Team'
 import Meeting from './pages/Meeting'
 import Playtest from './pages/Playtest'
 import QuantAnal from './pages/QuantAnal'
@@ -24,7 +24,7 @@ function App() {
     { path: 'tradeoffs', element: <TradeOffs /> },
     { path: 'duration', element: <Duration /> },
     { path: 'gallery', element: <Gallery /> },
-    { path: 'contributions', element: <Contributions /> },
+    { path: 'contributions', element: <Team /> },
     { path: 'meeting', element: <Meeting /> },
     { path: 'playtest', element: <Playtest /> },
     { path: 'analysis', element: <QuantAnal /> },

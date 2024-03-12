@@ -62,9 +62,9 @@ function Contributions() {
                 <div className="card-footer theme-bg-primary border-0 text-center">
                   {contributor.projectParts.map((part, index) => (
                     part.contribution > 0 && (
-                      <div className="progress mb-2 position-relative fs-6" key={index}>
+                      <div className="progress mb-2 position-relative" style={{height: '30px'}} key={index}>
                         <div className="progress-bar d-flex align-items-center" role="progressbar" style={{width: `${part.contribution}%`}} aria-valuenow={part.contribution} aria-valuemin={0} aria-valuemax={100}></div>
-                        <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center">{part.part} - {part.contribution}%</div>
+                        <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">{part.part} - {part.contribution}%</div>
                       </div>
                     )
                   ))}
