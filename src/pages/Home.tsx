@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import videoSource from '../assets/images/trailer.mp4';
@@ -18,7 +19,7 @@ function Home() {
             <h1 className="p-3 pb-0 display-2 text-primary">{text.gameTitle}</h1>
             <h1 className="p-3 pt-0 text-light mb-5">{text.gameSmallTitle}</h1>
             <p className="lead">
-              <a href="#trailer" className="button">Watch Trailer</a>
+              <Link to="#trailer" className="button">Watch Trailer</Link>
             </p>
           </div>
         </div>

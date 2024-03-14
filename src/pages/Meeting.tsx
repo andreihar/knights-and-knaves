@@ -7,6 +7,7 @@ import feb8 from '../assets/pdfs/meeting/Feb8.pdf';
 import feb15 from '../assets/pdfs/meeting/Feb15.pdf';
 import feb22 from '../assets/pdfs/meeting/Feb22.pdf';
 import feb27 from '../assets/pdfs/meeting/Feb27.pdf';
+import mar12 from '../assets/pdfs/meeting/Mar12.pdf';
 
 function Meeting() {
   const pdfs = [
@@ -15,6 +16,7 @@ function Meeting() {
     { title: 'February 15', src: feb15 },
     { title: 'February 22', src: feb22 },
     { title: 'February 27', src: feb27 },
+    { title: 'March 12', src: mar12 },
   ];
 
   return (

@@ -4,11 +4,13 @@ import Footer from '../components/Footer';
 // Logs
 import play1 from '../assets/pdfs/playtest/Playtest1.pdf';
 import play2 from '../assets/pdfs/playtest/Playtest2.pdf';
+import play3 from '../assets/pdfs/playtest/Playtest3.pdf';
 
 function Playtest() {
   const pdfs = [
     { date: 'February 27', src: play1 },
     { date: 'February 27', src: play2 },
+    { date: 'March 12', src: play3 },
   ];
 
   return (
