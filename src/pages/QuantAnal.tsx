@@ -34,10 +34,10 @@ function QuantAnal() {
               <h1>{text.analysis.title1}</h1>
               <p className="mb-4">{text.analysis.text11}</p>
               <p className="mb-4">{text.analysis.text12}</p>
-              <img src={probMatrix} alt="Probability Matrix" className="img-fluid mb-4 mx-auto d-block"/>
               <p className="mb-4">{text.analysis.text13}</p>
-              <img src={hpChart} alt="Health Points Chart" className="img-fluid mb-4 mx-auto d-block"/>
+              <img src={probMatrix} alt="Probability Matrix of Jousing" className="img-fluid mb-4 mx-auto d-block"/>
               <p className="mb-4">{text.analysis.text14}</p>
+              <img src={hpChart} alt="Health Points Chart" className="img-fluid mb-4 mx-auto d-block"/>
               <h1>{text.analysis.title2}</h1>
               <p className="mb-4">{text.analysis.text21}</p>
               <p className="mb-4">{text.analysis.text22}</p>
