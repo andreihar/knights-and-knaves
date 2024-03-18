@@ -1,7 +1,6 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import videoSource from '../assets/images/trailer.mp4';
 import text from '../assets/text.json';
 import heroImage from '../assets/images/hero.jpg';
 import pillar1Image from '../assets/images/pillar1.jpg';
@@ -37,9 +36,7 @@ function Home() {
                 </div>
                 <div className="col-lg-7 d-flex justify-content-center float-right">
                   <div className="ratio ratio-16x9">
-                    <video controls>
-                      <source src={videoSource} type="video/mp4"/>
-                    </video>
+                    <iframe className="" src="https://www.youtube.com/embed/j8RFu0XfuFM?si=_PAwruA25F45kFn-" allowFullScreen={true}></iframe>
                   </div>
                 </div>
               </div>

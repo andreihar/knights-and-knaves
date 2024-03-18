@@ -2,7 +2,7 @@
 	"names": ["Samuel Jen","Andrei Harbachov","Tino Ciccone","Fatemah Sunderji","Gurbaj Sidhu"],
 	"title": ["Mastermind of Deceptions","Code Wizard","Lore Guardian ","Architect of Prototype Cards","Curator of Atmosphere"],
 	"text": [
-		"As the leader, Samuel has overseen the project's game dynamics, ensuring a balanced and engaging gameplay experience. He's adept at navigating the intricate trade-offs inherent in game design, refining the rule book to ensure clarity and coherence. Samuel meticulously documents meeting logs, fostering effective communication and collaboration among team members, which is crucial for the project's success. Furthermore, Sam purchased dice and rubies for the game, and cut out the cards, enabling us to playtest the game and film the trailer.",
+		"As the leader, Samuel has overseen the project's game dynamics, ensuring a balanced and engaging gameplay experience. He's adept at navigating the intricate trade-offs inherent in game design, refining the rule book to ensure clarity and coherence. Samuel meticulously documents meeting logs, fostering effective communication and collaboration among team members, which is crucial for the project's success. Furthermore, Sam purchased dice, rubies, and cut out the cards for playtesting, as well as filming and editing the trailer, showcasing his commitment to the project's quality.",
 		"Andrei's expertise lies in creating the project's online presence with a dedicated website. He's also delved into game mechanics through flowcharts and quantitative analysis. Additionally, he's instrumental in determining game duration and refining mechanics through playtesting. Notably, Andrei has contributed his artistic talents by designing all the artwork for the finalised cards, bringing the game to life with his creative vision. His contributions ensure every aspect of the game is thoughtfully crafted and seamlessly integrated.",
 		"Tino has enriched the game's world with captivating backstory, weaving a narrative tapestry that immerses players in a mediaeval fantasy realm. His contributions add depth and intrigue to the game experience, making every decision feel like a part of a larger story.",
 		"Fatemah made contributions to the project by creating prototype cards, offering tangible representations of the game's mechanics and concepts. Through her contributions, Fatemah has provided the team with essential tools for testing and iteration, helping to shape the game's direction and gameplay experience.",
@@ -19,7 +19,7 @@
 	"playlogs": [0,100,0,0,0],
 	"flowchart": [0,100,0,0,0],
 	"quantanal": [0,100,0,0,0],
-	"trailer": [15,15,15,15,0],
+	"trailer": [64,12,12,12,0],
 	"visuals": [20,70,0,0,10],
 	"meetings": [6,6,5,6,3]
 }
