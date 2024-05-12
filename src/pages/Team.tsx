@@ -56,41 +56,41 @@ function Contributions() {
           <div className="row justify-content-center">
             {contributions.map((contributor, index) => (
               <div className={`col-12 col-md-6 col-lg-4`} key={index}>
-              <div className="card border-0 shadow-lg pt-3 my-3 position-relative">
-                <div className="card-body p-4">
-                  <div className="card-text pt-1">
-                    <h2 className="member-name mb-1 text-center text-primary font-weight-bold">{contributor.name}</h2>
-                    <div className="mb-3 text-center fs-5 text-secondary">{contributor.title}</div>
-                    <div>{contributor.text}</div>
+                <div className="card border-0 shadow-lg pt-3 my-3 position-relative">
+                  <div className="card-body p-4">
+                    <div className="card-text pt-1">
+                      <h2 className="member-name mb-1 text-center text-primary font-weight-bold">{contributor.name}</h2>
+                      <div className="mb-3 text-center fs-5 text-secondary">{contributor.title}</div>
+                      <div>{contributor.text}</div>
+                    </div>
                   </div>
-                </div>
-                <div className="card-footer theme-bg-primary border-0 text-center">
-                  <div className="progress mb-3 position-relative" style={{height: '30px'}} key={index}>
-                    <div className="progress-bar bg-warning bg-gradient d-flex align-items-center" role="progressbar" style={{width: `${contributor.contribution}%`}} aria-valuenow={contributor.contribution} aria-valuemin={0} aria-valuemax={100}></div>
-                    <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">Game Development - {contributor.contribution}%</div>
-                  </div>
-                  {contributor.projectParts.sort((a, b) => b.contribution - a.contribution).map((part, index) => (
-                    part.contribution > 0 && (
-                      <div className="progress mb-2 position-relative" style={{height: '30px'}} key={index}>
-                        <div className="progress-bar d-flex align-items-center" role="progressbar" style={{width: `${part.contribution}%`}} aria-valuenow={part.contribution} aria-valuemin={0} aria-valuemax={100}></div>
-                        <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">{part.part} - {part.contribution}%</div>
-                      </div>
-                    )
-                  ))}
-                  <div className="progress mt-3 position-relative" style={{height: '30px'}} key={index}>
-                    <div className="progress-bar bg-dark-subtle d-flex align-items-center" role="progressbar" style={{width: `${(100 * contributor.meetings) / 6}%`}} aria-valuenow={100 * contributor.meetings / 6} aria-valuemin={0} aria-valuemax={100}></div>
-                    <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">Meeting Attendance - {contributor.meetings} / 6</div>
+                  <div className="card-footer theme-bg-primary border-0 text-center">
+                    <div className="progress mb-3 position-relative" style={{ height: '30px' }} key={index}>
+                      <div className="progress-bar bg-warning bg-gradient d-flex align-items-center" role="progressbar" style={{ width: `${contributor.contribution}%` }} aria-valuenow={contributor.contribution} aria-valuemin={0} aria-valuemax={100}></div>
+                      <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">Game Development - {contributor.contribution}%</div>
+                    </div>
+                    {contributor.projectParts.sort((a, b) => b.contribution - a.contribution).map((part, index) => (
+                      part.contribution > 0 && (
+                        <div className="progress mb-2 position-relative" style={{ height: '30px' }} key={index}>
+                          <div className="progress-bar d-flex align-items-center" role="progressbar" style={{ width: `${part.contribution}%` }} aria-valuenow={part.contribution} aria-valuemin={0} aria-valuemax={100}></div>
+                          <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">{part.part} - {part.contribution}%</div>
+                        </div>
+                      )
+                    ))}
+                    <div className="progress mt-3 position-relative" style={{ height: '30px' }} key={index}>
+                      <div className="progress-bar bg-dark-subtle d-flex align-items-center" role="progressbar" style={{ width: `${(100 * contributor.meetings) / 6}%` }} aria-valuenow={100 * contributor.meetings / 6} aria-valuemin={0} aria-valuemax={100}></div>
+                      <div className="position-absolute w-100 h-100 d-flex align-items-center justify-content-center fs-5">Meeting Attendance - {contributor.meetings} / 6</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
             ))}
           </div>
         </div>
       </section>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Contributions
+export default Contributions;

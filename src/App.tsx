@@ -1,17 +1,17 @@
-import { useRoutes } from 'react-router-dom'
-import Home from './pages/Home'
-import Cards from './pages/Cards'
-import Characters from './pages/Characters'
-import Storyworld from './pages/Storyworld'
-import Premise from './pages/Premise'
-import Dynamics from './pages/Dynamics'
-import TradeOffs from './pages/TradeOffs'
-import Duration from './pages/Duration'
-import Gallery from './pages/Gallery'
-import Team from './pages/Team'
-import Meeting from './pages/Meeting'
-import Playtest from './pages/Playtest'
-import QuantAnal from './pages/QuantAnal'
+import { useRoutes } from 'react-router-dom';
+import Home from './pages/Home';
+import Cards from './pages/Cards';
+import Characters from './pages/Characters';
+import Storyworld from './pages/Storyworld';
+import Premise from './pages/Premise';
+import Dynamics from './pages/Dynamics';
+import TradeOffs from './pages/TradeOffs';
+import Duration from './pages/Duration';
+import Gallery from './pages/Gallery';
+import Team from './pages/Team';
+import Meeting from './pages/Meeting';
+import Playtest from './pages/Playtest';
+import QuantAnal from './pages/QuantAnal';
 
 function App() {
   const element = useRoutes([

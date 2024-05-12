@@ -7,7 +7,7 @@ import sword from "../assets/cards/Sword Strike.png";
 import jousting from "../assets/cards/Jousting.png";
 import shield from "../assets/cards/Shield.png";
 import kasword from "../assets/cards/Knight's Arsenal Shield.png";
-import kashield from  "../assets/cards/Knight's Arsenal Sword.png";
+import kashield from "../assets/cards/Knight's Arsenal Sword.png";
 import potion from "../assets/cards/Knight's Potion.png";
 import swap from "../assets/cards/Noble Swap.png";
 import intel from "../assets/cards/King's Intel.png";
@@ -39,7 +39,7 @@ function Contributions() {
                 <div className="d-flex flex-wrap justify-content-center">
                   {actions.map((card, index) => (
                     <div key={index} className="m-2">
-                      <img src={card} alt="Card" className="m-2" style={{maxWidth:'260px'}} />
+                      <img src={card} alt="Card" className="m-2" style={{ maxWidth: '260px' }} />
                     </div>
                   ))}
                 </div>
@@ -49,7 +49,7 @@ function Contributions() {
                 <div className="d-flex flex-wrap justify-content-center">
                   {chars.map((card, index) => (
                     <div key={index} className="m-2">
-                      <img src={card} alt="Card" className="m-2" style={{maxWidth:'260px'}} />
+                      <img src={card} alt="Card" className="m-2" style={{ maxWidth: '260px' }} />
                     </div>
                   ))}
                 </div>
@@ -60,7 +60,7 @@ function Contributions() {
       </section>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Contributions
+export default Contributions;

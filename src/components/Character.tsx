@@ -15,7 +15,7 @@ type CharProps = {
 const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) => {
   let colour = "";
   let teamPicture = "";
-  switch(character.team) {
+  switch (character.team) {
     case "red":
       colour = '#8E1407';
       teamPicture = red;
@@ -35,14 +35,14 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
         <div className="container-fluid col-xxl-8">
           <div className="row flex-lg-nowrap align-items-center g-5">
             <div className="order-lg-1 h-100 d-none d-lg-block">
-              <img alt="Home banner" src={character.picture} style={{  clipPath: "polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)", objectFit:'cover', objectPosition: 'top', height:'100vh'}} className="d-block" width={900} loading="lazy" />
+              <img alt="Home banner" src={character.picture} style={{ clipPath: "polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)", objectFit: 'cover', objectPosition: 'top', height: '100vh' }} className="d-block" width={900} loading="lazy" />
             </div>
             <div className="col-lg-6 p-lg-5">
               <div>
                 <div className="d-flex align-items-center gap-2">
-                  <img src={teamPicture} alt="Red" style={{maxWidth: '75px'}}/>
-                  <h1 className="display-4 lh-1" style={{color:colour}}>{character.name}</h1>
-                  <button type="button" className="btn-close fs-3 ms-auto position-absolute" style={{transform: 'translateX(-80px)'}} onClick={onRequestClose}></button>
+                  <img src={teamPicture} alt="Red" style={{ maxWidth: '75px' }} />
+                  <h1 className="display-4 lh-1" style={{ color: colour }}>{character.name}</h1>
+                  <button type="button" className="btn-close fs-3 ms-auto position-absolute" style={{ transform: 'translateX(-80px)' }} onClick={onRequestClose}></button>
                 </div>
                 <p className="my-5">{character.description}</p>
               </div>

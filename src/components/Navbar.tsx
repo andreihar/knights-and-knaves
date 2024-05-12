@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons'
-import logo from '../assets/logo.png'
-import rulebook from '../assets/pdfs/Rulebook.pdf'
-import flowcharts from '../assets/pdfs/Flowcharts.pdf'
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressBook, faBook, faFile } from '@fortawesome/free-solid-svg-icons';
+import logo from '../assets/logo.png';
+import rulebook from '../assets/pdfs/Rulebook.pdf';
+import flowcharts from '../assets/pdfs/Flowcharts.pdf';
 
 function Navbar() {
   return (
@@ -37,10 +37,10 @@ function Navbar() {
             <li className="nav-item"><Link to='/contributions' className="nav-link">Team</Link></li>
           </ul>
           <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li className="nav-item"><Link to='/cards' className="nav-link"><FontAwesomeIcon icon={faAddressBook} className="me-1"/>Cards</Link></li>
-            <li className="nav-item"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link"><FontAwesomeIcon icon={faBook} className="me-1"/>Rule Book</a></li>
+            <li className="nav-item"><Link to='/cards' className="nav-link"><FontAwesomeIcon icon={faAddressBook} className="me-1" />Cards</Link></li>
+            <li className="nav-item"><a href={rulebook} target="_blank" rel="noopener noreferrer" className="nav-link"><FontAwesomeIcon icon={faBook} className="me-1" />Rule Book</a></li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><FontAwesomeIcon icon={faFile} className="me-1"/>Documentation</a>
+              <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><FontAwesomeIcon icon={faFile} className="me-1" />Documentation</a>
               <ul className="dropdown-menu dropdown-menu-dark">
                 <li><Link to='/meeting' className="dropdown-item">Meeting Logs</Link></li>
                 <li><Link to='/playtest' className="dropdown-item">Playtest Logs</Link></li>
@@ -51,7 +51,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
