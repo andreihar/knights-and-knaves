@@ -48,7 +48,7 @@ function Home() {
           <h1 className="text-center section-title">Inspiration</h1>
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
             <div className="container px-4">
-              <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+              <div className="row row-cols-1 row-cols-lg-2 align-items-md-center g-5 py-5">
                 <div className="col d-flex flex-column align-items-start gap-2">
                   <p>{text.gameInspiration}</p>
                 </div>
@@ -56,19 +56,19 @@ function Home() {
                   <div>
                     <div className="quadruple-grid">
                       <div className="img-text">
-                        <img src="https://i0.wp.com/islaythedragon.com/wp-content/uploads/2014/01/1-IMG_05761.jpg?fit=1200%2C900&ssl=1&w=640" alt="Inspiration" className="img-fluid"/>
+                        <img src="https://i0.wp.com/islaythedragon.com/wp-content/uploads/2014/01/1-IMG_05761.jpg?fit=1200%2C900&ssl=1&w=640" alt="Inspiration" className="img-fluid" />
                         <h3>Coup</h3>
                       </div>
                       <div className="img-text">
-                        <img src="https://149455152.v2.pressablecdn.com/wp-content/uploads/2014/02/Werewolf-cards.jpg" alt="Inspiration" className="img-fluid"/>
+                        <img src="https://149455152.v2.pressablecdn.com/wp-content/uploads/2014/02/Werewolf-cards.jpg" alt="Inspiration" className="img-fluid" />
                         <h3 className="text-center fs-4">One Night Ultimate Werewolf</h3>
                       </div>
                       <div className="img-text">
-                        <img src="https://c4.wallpaperflare.com/wallpaper/1008/880/1005/the-witcher-gwent-the-witcher-card-game-wallpaper-preview.jpg" alt="Inspiration" className="img-fluid"/>
+                        <img src="https://c4.wallpaperflare.com/wallpaper/1008/880/1005/the-witcher-gwent-the-witcher-card-game-wallpaper-preview.jpg" alt="Inspiration" className="img-fluid" />
                         <h3 className="fs-3">Gwent</h3>
                       </div>
                       <div className="img-text">
-                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/12/13/17/42-hobbit-mgmwarner.jpg" alt="Inspiration" className="img-fluid"/>
+                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/12/13/17/42-hobbit-mgmwarner.jpg" alt="Inspiration" className="img-fluid" />
                         <h3>The Hobbit</h3>
                       </div>
                     </div>
@@ -82,29 +82,29 @@ function Home() {
         <section id="pillars" className="min-vh-100 d-flex flex-column" >
           <h1 className="text-center section-title">Game Pillars</h1>
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1 container">
-          <div className="row justify-content-center">
-            <div className="col-lg-3 text-center me-3 my-5">
-              <img src={pillar1Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
-              <h2 className="fw-normal mb-3">What</h2>
-              <p>{text.pillars.what}</p>
+            <div className="row justify-content-center">
+              <div className="col-lg-3 text-center me-3 my-5">
+                <img src={pillar1Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3" />
+                <h2 className="fw-normal mb-3">What</h2>
+                <p>{text.pillars.what}</p>
+              </div>
+              <div className="col-lg-3 text-center me-3 my-5">
+                <img src={pillar2Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3" />
+                <h2 className="fw-normal mb-3">How</h2>
+                <p>{text.pillars.how}</p>
+              </div>
+              <div className="col-lg-3 text-center my-5">
+                <img src={pillar3Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3" />
+                <h2 className="fw-normal mb-3">Why</h2>
+                <p>{text.pillars.why}</p>
+              </div>
             </div>
-            <div className="col-lg-3 text-center me-3 my-5">
-              <img src={pillar2Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
-              <h2 className="fw-normal mb-3">How</h2>
-              <p>{text.pillars.how}</p>
-            </div>
-            <div className="col-lg-3 text-center my-5">
-              <img src={pillar3Image} alt="Pillar Image" width={140} height={140} className="rounded-circle mb-3"/>
-              <h2 className="fw-normal mb-3">Why</h2>
-              <p>{text.pillars.why}</p>
-            </div>
-          </div>
           </div>
         </section>
       </main>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -179,6 +179,17 @@ button {
   text-shadow: 0 2px 24px rgba(0,0,0,.6);
   z-index: 2;
 }
+.img-text h3, .character-container h3 {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 6vh;
+  font-weight: 700;
+  line-height: 6vh;
+  padding: 2vw;
+  text-shadow: 0 2px 24px rgba(0,0,0,.6);
+  z-index: 2;
+}
 .quadruple-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -286,7 +297,7 @@ button {
   padding: 50px;
   list-style: none;
   text-align: left;
-  max-width: 40%;
+  max-width: 80%;
 }
 .timeline .event {
   padding-bottom: 25px;
@@ -324,7 +335,9 @@ button {
 
 /* Characters */
 .character-img {
-  max-height: 400px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 /* Storyworld */

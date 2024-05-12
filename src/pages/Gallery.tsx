@@ -1,22 +1,22 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Masonry from 'react-masonry-css'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Masonry from 'react-masonry-css';
 
 // Gallery Images
-import dice from '../assets/gallery/dice.jpg'
-import rubies from '../assets/gallery/rubies.jpg'
-import cardsHand from '../assets/gallery/cards hand.jpg'
-import backside from '../assets/gallery/backside.jpg'
-import cardsAll from '../assets/gallery/cards all.jpg'
-import cards from '../assets/gallery/cards.jpg'
-import prototypes from '../assets/gallery/prototypes.jpg'
-import moodboard from '../assets/gallery/moodboard.png'
+import dice from '../assets/gallery/dice.jpg';
+import rubies from '../assets/gallery/rubies.jpg';
+import cardsHand from '../assets/gallery/cards hand.jpg';
+import backside from '../assets/gallery/backside.jpg';
+import cardsAll from '../assets/gallery/cards all.jpg';
+import cards from '../assets/gallery/cards.jpg';
+import prototypes from '../assets/gallery/prototypes.jpg';
+import moodboard from '../assets/gallery/moodboard.png';
 
 function Gallery() {
   const images = [
     { src: cards, title: 'Cards' },
     { src: backside, title: 'Backside of Cards' },
-    { src: cardsHand, title: 'Cards in Hand'},
+    { src: cardsHand, title: 'Cards in Hand' },
     { src: dice, title: 'Dice' },
     { src: rubies, title: 'Rubies' },
     { src: cardsAll, title: 'All Cards' },
@@ -32,22 +32,26 @@ function Gallery() {
         <div className="d-flex flex-column align-items-center flex-grow-1">
           <div className="container">
             <Masonry
-              breakpointCols={3}
+              breakpointCols={{
+                default: 3,
+                1200: 2,
+                768: 1
+              }}
               className="my-masonry-grid"
               columnClassName="my-masonry-grid_column">
-                {images.map((image, index) => (
-                  <div key={index} className="image-container">
-                    <img src={image.src} className="img-fluid" alt={image.title}/>
-                    <h1>{image.title}</h1>
-                  </div>
-                ))}
+              {images.map((image, index) => (
+                <div key={index} className="image-container">
+                  <img src={image.src} className="img-fluid" alt={image.title} />
+                  <h1>{image.title}</h1>
+                </div>
+              ))}
             </Masonry>
           </div>
         </div>
       </section>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;

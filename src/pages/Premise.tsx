@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import text from '../assets/text.json'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import text from '../assets/text.json';
 
 function Premise() {
   return (
@@ -10,7 +10,7 @@ function Premise() {
         <h1 className="text-center section-title">Premise</h1>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
               <div id="content">
                 <ul className="timeline">
                   {Object.keys(text.timeline).filter(key => key.startsWith('date')).map((key, index) => {
@@ -18,9 +18,9 @@ function Premise() {
                     const descriptionKey = `description${index + 1}`;
                     return (
                       <li className="event lh-base" key={index}>
-                        <h5>{(text.timeline as {[key: string]: string})[key]}</h5>
-                        <h3>{(text.timeline as {[key: string]: string})[eventKey]}</h3>
-                        <p>{(text.timeline as {[key: string]: string})[descriptionKey]}</p>
+                        <h5>{(text.timeline as { [key: string]: string; })[key]}</h5>
+                        <h3>{(text.timeline as { [key: string]: string; })[eventKey]}</h3>
+                        <p>{(text.timeline as { [key: string]: string; })[descriptionKey]}</p>
                       </li>
                     );
                   })}
@@ -32,7 +32,7 @@ function Premise() {
       </section>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Premise
+export default Premise;

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Character from '../components/Character';
 import { CharClass } from '../models/CharClass';
-import { defaultChars } from "../assets/DefaultChars"
+import { defaultChars } from "../assets/DefaultChars";
 
 import text from '../assets/text.json';
 import red from '../assets/factions/red.png';
@@ -39,17 +39,17 @@ const Characters = () => {
         <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-3 text-center">
+              <div className="col-lg-4 text-center">
                 <img src={red} alt="" />
                 <h1>{text.factions.titleRed}</h1>
                 <Link to="#red" className="text-uppercase">Learn More</Link>
               </div>
-              <div className="col-lg-3 text-center">
+              <div className="col-lg-4 text-center">
                 <img src={green} alt="" />
                 <h1>{text.factions.titleGreen}</h1>
                 <Link to="#green" className="text-uppercase">Learn More</Link>
               </div>
-              <div className="col-lg-3 text-center">
+              <div className="col-lg-4 text-center">
                 <img src={blue} alt="" />
                 <h1>{text.factions.titleBlue}</h1>
                 <Link to="#blue" className="text-uppercase">Learn More</Link>
@@ -63,21 +63,21 @@ const Characters = () => {
         <h1 className="text-center">{text.factions.titleRed}</h1>
         <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
           <div className="container px-4">
-            <div className="row row-cols-1 row-cols-md-2 align-items-md-center py-5">
+            <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
               <div className="col d-flex flex-column align-items-start gap-2">
                 <div className="d-flex align-items-center gap-2">
-                  <img src={red} alt="Red" style={{maxWidth: '75px'}}/>
-                  <h2 style={{color:redColour}}>{text.factions.titleRed}</h2>
+                  <img src={red} alt="Red" style={{ maxWidth: '75px' }} />
+                  <h2 style={{ color: redColour }}>{text.factions.titleRed}</h2>
                 </div>
                 <p>{text.factions.textRed}</p>
               </div>
               <div className="col d-flex gap-3">
                 {redTeam.map((character, index) => (
-                  <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text text-center">
-                    <img src={character.picture} alt="Card" className="character-img" />
-                    <h3>{character.name}</h3>
-                  </div>
+                  <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
+                    <div key={index} className="img-text text-center">
+                      <img src={character.picture} alt="Card" className="character-img" />
+                      <h3>{character.name}</h3>
+                    </div>
                   </a>
                 ))}
               </div>
@@ -89,21 +89,21 @@ const Characters = () => {
         <h1 className="text-center">{text.factions.titleGreen}</h1>
         <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
           <div className="container px-4">
-            <div className="row row-cols-1 row-cols-md-2 align-items-md-center py-5">
-              <div className="col d-flex gap-3">
+            <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
+              <div className="col d-flex gap-3 order-2 order-xxl-1">
                 {greenTeam.map((character, index) => (
-                  <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text text-center">
-                    <img src={character.picture} alt="Card" className="character-img" />
-                    <h3>{character.name}</h3>
-                  </div>
+                  <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
+                    <div key={index} className="img-text text-center">
+                      <img src={character.picture} alt="Card" className="character-img" />
+                      <h3>{character.name}</h3>
+                    </div>
                   </a>
                 ))}
               </div>
-              <div className="col d-flex flex-column align-items-start gap-2">
+              <div className="col d-flex flex-column align-items-start gap-2 order-1 order-xxl-2">
                 <div className="d-flex align-items-center gap-2">
-                  <img src={green} alt="Green" style={{maxWidth: '75px'}}/>
-                  <h2 style={{color:greenColour}}>{text.factions.titleGreen}</h2>
+                  <img src={green} alt="Green" style={{ maxWidth: '75px' }} />
+                  <h2 style={{ color: greenColour }}>{text.factions.titleGreen}</h2>
                 </div>
                 <p>{text.factions.textGreen}</p>
               </div>
@@ -115,21 +115,21 @@ const Characters = () => {
         <h1 className="text-center">{text.factions.titleBlue}</h1>
         <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
           <div className="container px-4">
-            <div className="row row-cols-1 row-cols-md-2 align-items-md-center py-5">
+            <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
               <div className="col d-flex flex-column align-items-start gap-2">
                 <div className="d-flex align-items-center gap-2">
-                  <img src={blue} alt="Blue" style={{maxWidth: '75px'}}/>
-                  <h2 style={{color:blueColour}}>{text.factions.titleBlue}</h2>
+                  <img src={blue} alt="Blue" style={{ maxWidth: '75px' }} />
+                  <h2 style={{ color: blueColour }}>{text.factions.titleBlue}</h2>
                 </div>
                 <p>{text.factions.textBlue}</p>
               </div>
               <div className="col d-flex gap-3">
                 {blueTeam.map((character, index) => (
-                  <a href="#" onClick={(event) => {event.preventDefault(); handleClick(character);}}>
-                  <div key={index} className="img-text text-center">
-                    <img src={character.picture} alt="Card" className="character-img" />
-                    <h3>{character.name}</h3>
-                  </div>
+                  <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
+                    <div key={index} className="img-text text-center">
+                      <img src={character.picture} alt="Card" className="character-img" />
+                      <h3>{character.name}</h3>
+                    </div>
                   </a>
                 ))}
               </div>

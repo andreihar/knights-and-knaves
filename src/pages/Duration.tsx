@@ -6,8 +6,8 @@ import durationBg from "../assets/images/duration.jpg";
 function Duration() {
   return (
     <>
-      <Navbar/>
-      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url(${durationBg})`}}>
+      <Navbar />
+      <div className="p-5 text-center bg-image text-uppercase position-relative" style={{ backgroundImage: `url(${durationBg})` }}>
         <div className="mask position-absolute top-0 start-0 bottom-0 end-0">
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
@@ -17,14 +17,14 @@ function Duration() {
           </div>
         </div>
       </div>
-      
+
       <main className="container mt-5 lh-lg">
         <div className="row g-5">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> duration</h2>
-              <p className="text-dark-emphasis align-items-center d-flex">by: 
-                <img src="https://media.licdn.com/dms/image/D5603AQGjT7AIU4Kl6A/profile-displayphoto-shrink_400_400/0/1687413339437?e=1714608000&v=beta&t=ONTqmM_F9RzULgE4o3d2mhyqbRl8wxYuBGjB3jmg0O4" alt="User Picture" width={32} height={32} className="rounded-circle ms-2"/>
+              <p className="text-dark-emphasis align-items-center d-flex">by:
+                <img src="https://avatars.githubusercontent.com/u/95883512?v=4" alt="User Picture" width={32} height={32} className="rounded-circle ms-2" />
                 <span className="text-uppercase fs-5 ms-2">Andrei Harbachov</span>
               </p>
               <hr />
@@ -45,9 +45,9 @@ function Duration() {
           </div>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Duration
+export default Duration;

@@ -22,10 +22,10 @@ function Playtest() {
           <div className="container">
             <div className="row">
               {pdfs.map((pdf, index) => (
-                <div className="col-sm-3" key={index}>
+                <div className="col-lg-3 col-sm-6 mb-3" key={index}>
                   <div className="card">
                     <div className="card-body text-center">
-                      <h3 className="card-title text-primary">Playtest #{index+1}</h3>
+                      <h3 className="card-title text-primary">Playtest #{index + 1}</h3>
                       <h5 className="card-subtitle mb-2 text-muted">{pdf.date}</h5>
                       <a href={pdf.src} target="_blank" rel="noopener noreferrer" className="btn btn-primary">Open PDF</a>
                     </div>
@@ -38,7 +38,7 @@ function Playtest() {
       </section>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Playtest
+export default Playtest;
