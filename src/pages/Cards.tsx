@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ModalImage from "react-modal-image";
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 // Cards
 import arrow from "../assets/cards/Arrow Strike.png";
@@ -40,7 +41,9 @@ function Contributions() {
                 <div className="d-flex flex-wrap justify-content-center">
                   {actions.map((card, index) => (
                     <div key={index} className="m-2">
-                      <ModalImage className="m-2 modal-image" small={card} large={card} hideZoom={true} alt="" />
+                      <Zoom>
+                        <img src={card} alt="Card" style={{ maxWidth: "260px" }} className="m-2" />
+                      </Zoom>
                     </div>
                   ))}
                 </div>
@@ -50,7 +53,9 @@ function Contributions() {
                 <div className="d-flex flex-wrap justify-content-center">
                   {chars.map((card, index) => (
                     <div key={index} className="m-2">
-                      <ModalImage className="m-2 modal-image" small={card} large={card} hideZoom={true} alt="" />
+                      <Zoom>
+                        <img src={card} alt="Card" style={{ maxWidth: "260px" }} className="m-2" />
+                      </Zoom>
                     </div>
                   ))}
                 </div>

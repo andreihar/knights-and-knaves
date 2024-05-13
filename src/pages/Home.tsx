@@ -31,7 +31,7 @@ function Home() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-5 d-flex flex-column justify-content-center">
-                  <h1>Core Statement</h1>
+                  <h1>Venture into Treachery's Domain!</h1>
                   <p>{text.coreStatement}</p>
                 </div>
                 <div className="col-lg-7 d-flex justify-content-center float-right">

@@ -1,7 +1,8 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Masonry from 'react-masonry-css';
-import ModalImage from "react-modal-image";
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 
 // Gallery Images
 import dice from '../assets/gallery/dice.jpg';
@@ -42,8 +43,10 @@ function Gallery() {
               columnClassName="my-masonry-grid_column">
               {images.map((image, index) => (
                 <div key={index} className="image-container">
-                  {/* <img src={image.src} className="img-fluid" alt={image.title} /> */}
-                  <ModalImage className="img-fluid" small={image.src} large={image.src} hideZoom={true} alt="" />
+                  {/* <ModalImage className="img-fluid" small={image.src} large={image.src} hideZoom={true} alt="" /> */}
+                  <Zoom>
+                    <img src={image.src} alt="image.title" className="img-fluid" />
+                  </Zoom>
                   <h1>{image.title}</h1>
                 </div>
               ))}

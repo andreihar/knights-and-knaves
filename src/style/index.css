@@ -124,7 +124,7 @@ section hr {
 .section-title::after {
   content: '';
   display: block;
-  margin: 1.25rem auto;
+  margin: 1rem auto;
   width: 10%;
   border-bottom: 3px solid;
   border-color: var(--primary);
@@ -412,9 +412,4 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 	height: 400px;
-}
-
-/* Cards */
-.modal-image {
-  max-width: 260px !important;
 }
