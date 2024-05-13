@@ -30,23 +30,30 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
       break;
   }
   return (
-    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Character Page" className="ReactModal__Content modal-dialog modal-dialog-centered modal-fullscreen d-flex flex-column vh-100 w-100" overlayClassName="ReactModal__Overlay">
-      <div className="overflow-hidden">
-        <div className="container-fluid col-xxl-8">
-          <div className="row flex-lg-nowrap align-items-center g-5">
-            <div className="order-lg-1 h-100 d-none d-lg-block">
-              <img alt="Home banner" src={character.picture} style={{ clipPath: "polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)", objectFit: 'cover', objectPosition: 'top', height: '100vh' }} className="d-block" width={900} loading="lazy" />
-            </div>
-            <div className="col-lg-6 p-lg-5">
-              <div>
-                <div className="d-flex align-items-center gap-2">
-                  <img src={teamPicture} alt="Red" style={{ maxWidth: '75px' }} />
-                  <h1 className="display-4 lh-1" style={{ color: colour }}>{character.name}</h1>
-                  <button type="button" className="btn-close fs-3 ms-auto position-absolute" style={{ transform: 'translateX(-80px)' }} onClick={onRequestClose}></button>
-                </div>
-                <p className="my-5">{character.description}</p>
+    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Character Page" className="ReactModal__Content" overlayClassName="ReactModal__Overlay">
+      <div style={{ display: 'flex', height: '100%' }}>
+        <div style={{ flex: '1', display: 'grid', alignContent: 'center' }} className="p-4">
+          <div style={{ overflow: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div className="col-lg-8 col-xxl-8 col-md-10 col-12" style={{ marginLeft: 'auto' }}>
+              <div className="d-flex align-items-center gap-2">
+                <img src={teamPicture} alt="Colour" style={{ maxWidth: '75px' }} />
+                <h1 className="display-4 lh-1" style={{ color: colour }}>{character.name}</h1>
               </div>
+              <p className="my-5">{character.description}</p>
             </div>
+          </div>
+        </div>
+        <div style={{
+          flex: '1',
+          backgroundImage: `url(${character.picture})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'top',
+          clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)',
+          position: 'relative'
+        }}>
+          <div className="modal-header" data-bs-theme="dark">
+            <h5 className="modal-title" id="characterOverlayLabel"></h5>
+            <button type="button" className="btn-close fs-3" onClick={onRequestClose}></button>
           </div>
         </div>
       </div>
