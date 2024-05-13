@@ -8,6 +8,20 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Marcellus SC", serif;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .15);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .34);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, .60);
+}
+
 /* General */
 :root {
   --navbar-height: 60px;
@@ -155,10 +169,10 @@ button {
   background: #fff;
   overflow: auto;
   outline: none;
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
   box-sizing: content-box;
-  padding: 20px;
+}
+.modal-header {
+  padding: 20px !important;
 }
 
 /* Img Text */
@@ -356,10 +370,15 @@ button {
 }
 .modal-body {
   background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  bottom: 28px;
-  left: 100px;
-  width: 600px;
+}
+.region ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, .15);
+}
+.region ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .34);
+}
+.region ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, .60);
 }
 
 /* Description */
