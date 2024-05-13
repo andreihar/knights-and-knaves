@@ -9,9 +9,9 @@ function Footer() {
       <footer className="container pt-5">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-2">
           <div className="col mb-3">
-            <a href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <Link to="/" className="align-items-center mb-3 link-body-emphasis text-decoration-none">
               <img src={logo} alt="Logo" className="bi me-2 navbar-logo" />
-            </a>
+            </Link>
           </div>
           <div className="col mb-3">
             <h5>Game</h5>

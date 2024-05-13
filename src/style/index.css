@@ -275,6 +275,7 @@ button {
   position: relative;
 }
 .image-container h1 {
+  pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -411,4 +412,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 	height: 400px;
+}
+
+/* Cards */
+.modal-image {
+  max-width: 260px !important;
 }
