@@ -19,7 +19,7 @@ function Dynamics() {
       </div>
 
       <main className="container mt-5 lh-lg">
-        <div className="row g-5">
+        <div className="row">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> Dynamics</h2>

@@ -31,10 +31,10 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
   }
   return (
     <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Character Page" className="ReactModal__Content" overlayClassName="ReactModal__Overlay">
-      <div style={{ display: 'flex', height: '100%' }}>
-        <div style={{ flex: '1', display: 'grid', alignContent: 'center' }} className="p-4">
-          <div style={{ overflow: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="col-lg-8 col-xxl-8 col-md-10 col-12" style={{ marginLeft: 'auto' }}>
+      <div className="d-flex h-100">
+        <div className="d-grid align-content-center p-4" style={{ flex: '1' }}>
+          <div className="overflow-auto d-flex flex-column align-items-center pe-5">
+            <div className="col-lg-8 col-xxl-8 col-md-10 col-12 ms-auto">
               <div className="d-flex align-items-center gap-2">
                 <img src={teamPicture} alt="Colour" style={{ maxWidth: '75px' }} />
                 <h1 className="display-4 lh-1" style={{ color: colour }}>{character.name}</h1>
@@ -43,13 +43,12 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
             </div>
           </div>
         </div>
-        <div style={{
+        <div className="position-relative" style={{
           flex: '1',
           backgroundImage: `url(${character.picture})`,
           backgroundSize: 'cover',
           backgroundPosition: 'top',
-          clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)',
-          position: 'relative'
+          clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)'
         }}>
           <div className="modal-header" data-bs-theme="dark">
             <h5 className="modal-title" id="characterOverlayLabel"></h5>

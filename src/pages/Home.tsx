@@ -23,7 +23,7 @@ function Home() {
           </div>
         </div>
       </header>
-      <main>
+      <main className="border">
         {/* Trailer w/ paragraph */}
         <section id="trailer" className="min-vh-100 d-flex flex-column" >
           <h1 className="text-center section-title">Trailer</h1>
