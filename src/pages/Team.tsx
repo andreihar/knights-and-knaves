@@ -50,7 +50,7 @@ function Contributions() {
   return (
     <>
       <Navbar />
-      <section className="team-section py-5 ">
+      <main className="team-section py-5 ">
         <h1 className="text-center section-title">Team</h1>
         <div className="container">
           <div className="row justify-content-center">
@@ -87,7 +87,7 @@ function Contributions() {
             ))}
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
     </>
   );

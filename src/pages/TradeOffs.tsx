@@ -18,8 +18,8 @@ function TradeOffs() {
         </div>
       </div>
 
-      <main className="container mt-5 lh-lg">
-        <div className="row g-5">
+      <main className="lh-lg">
+        <div className="container py-5">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> trade-offs</h2>
@@ -37,7 +37,7 @@ function TradeOffs() {
               <h1>{text.tradeoffs.title4}</h1>
               <p className="mb-4">{text.tradeoffs.text4}</p>
               <h1>{text.tradeoffs.title5}</h1>
-              <p className="mb-5">{text.tradeoffs.text5}</p>
+              <p>{text.tradeoffs.text5}</p>
             </article>
           </div>
         </div>

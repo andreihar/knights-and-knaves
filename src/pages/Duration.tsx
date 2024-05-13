@@ -18,8 +18,8 @@ function Duration() {
         </div>
       </div>
 
-      <main className="container mt-5 lh-lg">
-        <div className="row g-5">
+      <main className="lh-lg">
+        <div className="container py-5">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> duration</h2>
@@ -40,7 +40,7 @@ function Duration() {
               </ul>
               <p className="mb-4">{text.duration.text22}</p>
               <h1>{text.duration.title3}</h1>
-              <p className="mb-4">{text.duration.text3}</p>
+              <p>{text.duration.text3}</p>
             </article>
           </div>
         </div>

@@ -20,8 +20,8 @@ function QuantAnal() {
         </div>
       </div>
 
-      <main className="container mt-5 lh-lg">
-        <div className="row g-5">
+      <main className="lh-lg">
+        <div className="container py-5">
           <div className="col-md-8 mx-auto">
             <article className="blog-post">
               <h2 className="display-5 link-body-emphasis mb-1"><span className="text-primary">{text.gameTitle}'</span> quantitative analysis</h2>
@@ -65,7 +65,7 @@ function QuantAnal() {
                 <li>{text.analysis.text72}</li>
               </ul>
               <h3>{text.analysis.title8}</h3>
-              <ul className="fs-5 mb-4">
+              <ul className="fs-5">
                 <li>{text.analysis.text81}</li>
                 <li>{text.analysis.text82}</li>
               </ul>

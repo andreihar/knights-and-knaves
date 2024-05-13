@@ -29,7 +29,7 @@ function Contributions() {
   return (
     <>
       <Navbar />
-      <section className="min-vh-100 d-flex flex-column" >
+      <main className="min-vh-100 d-flex flex-column" >
         <h1 className="text-center section-title">Cards</h1>
         <div className="d-flex flex-column align-items-center flex-grow-1">
           <div className="container">
@@ -57,7 +57,7 @@ function Contributions() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
     </>
   );

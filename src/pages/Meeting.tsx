@@ -22,7 +22,7 @@ function Meeting() {
   return (
     <>
       <Navbar />
-      <section className="min-vh-100 d-flex flex-column" >
+      <main className="min-vh-100 d-flex flex-column" >
         <h1 className="text-center section-title">Meeting Logs</h1>
         <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
           <div className="container">
@@ -41,7 +41,7 @@ function Meeting() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
     </>
   );

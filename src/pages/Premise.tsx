@@ -6,9 +6,9 @@ function Premise() {
   return (
     <>
       <Navbar />
-      <section className="min-vh-100 d-flex flex-column mb-5">
+      <main className="min-vh-100 d-flex flex-column">
         <h1 className="text-center section-title">Premise</h1>
-        <div className="container-fluid">
+        <div className="container-fluid mb-5">
           <div className="row">
             <div className="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
               <div id="content">
@@ -29,7 +29,7 @@ function Premise() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
       <Footer />
     </>
   );
