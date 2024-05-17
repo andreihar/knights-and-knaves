@@ -2,7 +2,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect, ReactNode } from 'react';
 
-function AnimatedDiv({ children, className, duration = 1, delay = 0, hidden = { opacity: 0, x: 0, y: 0, scale: 1 }, ...props }: { children: ReactNode, className?: string, duration?: number, delay?: number, hidden?: { opacity: number, x?: number, y?: number, scale?: number; }; }) {
+function Anim({ children, className, duration = 1, delay = 0, hidden = { opacity: 0, x: 0, y: 0, scale: 1 }, ...props }: { children: ReactNode, className?: string, duration?: number, delay?: number, hidden?: { opacity: number, x?: number, y?: number, scale?: number; }; }) {
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -21,4 +21,4 @@ function AnimatedDiv({ children, className, duration = 1, delay = 0, hidden = { 
   );
 }
 
-export default AnimatedDiv;
+export default Anim;

@@ -175,11 +175,17 @@ section hr {
 
 /* Img Text */
 .img-text h3 {
-  font-size: 6vh;
-  line-height: 6vh;
+  font-size: 3vw;
+  line-height: 3vw;
   padding: 2vw;
   text-shadow: 0 2px 24px rgba(0,0,0,.6);
   z-index: 2;
+}
+@media screen and (max-width: 1399px) {
+  .img-text h3 {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
 }
 .quadruple-grid {
   grid-template-columns: repeat(2, 1fr);
@@ -200,15 +206,16 @@ section hr {
   z-index: 1;
 }
 .img-text:after {
-  border: 1px solid hsla(0,0%,100%,.2);
-  bottom: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
   content: "";
-  left: 4px;
   position: absolute;
-  right: 4px;
   top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
   z-index: 2;
+  transition: .2s border-color, .2s border-width;
 }
 
 /* Gallery */
@@ -284,6 +291,9 @@ section hr {
 /* Characters */
 .character-img {
   object-fit: cover;
+}
+.img-text-hover:hover:after {
+  border: 4px solid rgb(220, 20, 60, 0.7);
 }
 
 /* Storyworld */

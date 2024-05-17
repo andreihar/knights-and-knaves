@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import Anim from '../components/Anim';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Character from '../components/Character';
@@ -40,21 +41,21 @@ const Characters = () => {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
             <div className="container">
               <div className="row justify-content-center">
-                <div className="col-lg-4 text-center">
+                <Anim className="col-lg-4 text-center" duration={0.7} delay={0.1} hidden={{ opacity: 0, y: 50 }}>
                   <img src={red} alt="" />
                   <h1>{text.factions.titleRed}</h1>
                   <Link to="#red" className="text-uppercase">Learn More</Link>
-                </div>
-                <div className="col-lg-4 text-center">
+                </Anim>
+                <Anim className="col-lg-4 text-center" duration={0.7} delay={0.2} hidden={{ opacity: 0, y: 50 }}>
                   <img src={green} alt="" />
                   <h1>{text.factions.titleGreen}</h1>
                   <Link to="#green" className="text-uppercase">Learn More</Link>
-                </div>
-                <div className="col-lg-4 text-center">
+                </Anim>
+                <Anim className="col-lg-4 text-center" duration={0.7} delay={0.3} hidden={{ opacity: 0, y: 50 }}>
                   <img src={blue} alt="" />
                   <h1>{text.factions.titleBlue}</h1>
                   <Link to="#blue" className="text-uppercase">Learn More</Link>
-                </div>
+                </Anim>
               </div>
             </div>
           </div>
@@ -65,23 +66,23 @@ const Characters = () => {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
             <div className="container px-4">
               <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
-                <div className="col d-flex flex-column align-items-start gap-2">
+                <Anim className="col d-flex flex-column align-items-start gap-2" duration={1} hidden={{ opacity: 0 }}>
                   <div className="d-flex align-items-center gap-2">
                     <img src={red} alt="Red" style={{ maxWidth: '75px' }} />
                     <h2 style={{ color: redColour }}>{text.factions.titleRed}</h2>
                   </div>
                   <p>{text.factions.textRed}</p>
-                </div>
-                <div className="col d-flex gap-3">
+                </Anim>
+                <Anim className="col d-flex gap-3" duration={1} delay={0.7} hidden={{ opacity: 0, x: -50 }}>
                   {redTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                      <div key={index} className="img-text img-text-hover text-center position-relative d-flex justify-content-center align-items-center">
                         <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
                         <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
-                </div>
+                </Anim>
               </div>
             </div>
           </div>
@@ -91,23 +92,23 @@ const Characters = () => {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
             <div className="container px-4">
               <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
-                <div className="col d-flex gap-3 order-2 order-xxl-1">
+                <Anim className="col d-flex gap-3 order-2 order-xxl-1" duration={1} delay={0.7} hidden={{ opacity: 0, x: -50 }}>
                   {greenTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                      <div key={index} className="img-text img-text-hover text-center position-relative d-flex justify-content-center align-items-center">
                         <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
                         <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
-                </div>
-                <div className="col d-flex flex-column align-items-start gap-2 order-1 order-xxl-2">
+                </Anim>
+                <Anim className="col d-flex flex-column align-items-start gap-2 order-1 order-xxl-2" duration={1} hidden={{ opacity: 0 }}>
                   <div className="d-flex align-items-center gap-2">
                     <img src={green} alt="Green" style={{ maxWidth: '75px' }} />
                     <h2 style={{ color: greenColour }}>{text.factions.titleGreen}</h2>
                   </div>
                   <p>{text.factions.textGreen}</p>
-                </div>
+                </Anim>
               </div>
             </div>
           </div>
@@ -117,23 +118,23 @@ const Characters = () => {
           <div className="d-flex flex-column align-items-center justify-content-center flex-grow-1">
             <div className="container px-4">
               <div className="row row-cols-1 row-cols-xxl-2 align-items-md-center py-5">
-                <div className="col d-flex flex-column align-items-start gap-2">
+                <Anim className="col d-flex flex-column align-items-start gap-2" duration={1} hidden={{ opacity: 0 }}>
                   <div className="d-flex align-items-center gap-2">
                     <img src={blue} alt="Blue" style={{ maxWidth: '75px' }} />
                     <h2 style={{ color: blueColour }}>{text.factions.titleBlue}</h2>
                   </div>
                   <p>{text.factions.textBlue}</p>
-                </div>
-                <div className="col d-flex gap-3">
+                </Anim>
+                <Anim className="col d-flex gap-3" duration={1} delay={0.7} hidden={{ opacity: 0, x: -50 }}>
                   {blueTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                      <div key={index} className="img-text img-text-hover text-center position-relative d-flex justify-content-center align-items-center">
                         <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
                         <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
-                </div>
+                </Anim>
               </div>
             </div>
           </div>

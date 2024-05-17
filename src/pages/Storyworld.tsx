@@ -26,7 +26,7 @@ function Storyworld() {
         backgroundSize: 'cover',
         backgroundPosition: 'top'
       }}>
-        <div className="d-flex flex-column justify-content-center flex-grow-1 body-full">
+        <div className="d-flex flex-column justify-content-center flex-grow-1">
           <div className="container px-4 py-5">
             <div className="row g-5 py-5">
               <div>
