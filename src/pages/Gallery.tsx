@@ -12,7 +12,7 @@ import backside from '../assets/gallery/backside.jpg';
 import cardsAll from '../assets/gallery/cards all.jpg';
 import cards from '../assets/gallery/cards.jpg';
 import prototypes from '../assets/gallery/prototypes.jpg';
-import moodboard from '../assets/gallery/moodboard.png';
+import moodboard from '../assets/gallery/moodboard.jpg';
 
 function Gallery() {
   const images = [
@@ -43,7 +43,6 @@ function Gallery() {
               columnClassName="my-masonry-grid_column">
               {images.map((image, index) => (
                 <div key={index} className="image-container">
-                  {/* <ModalImage className="img-fluid" small={image.src} large={image.src} hideZoom={true} alt="" /> */}
                   <Zoom>
                     <img src={image.src} alt="image.title" className="img-fluid" />
                   </Zoom>

@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 import AnimatedDiv from '../components/AnimatedDiv';
 import text from '../assets/text.json';
 import heroImage from '../assets/images/hero.jpg';
-import pillar1Image from '../assets/images/pillar1.jpg';
-import pillar2Image from '../assets/images/pillar2.jpg';
-import pillar3Image from '../assets/images/pillar3.jpg';
+import pillar1Image from '../assets/pillars/1.jpg';
+import pillar2Image from '../assets/pillars/2.jpg';
+import pillar3Image from '../assets/pillars/3.jpg';
 
 function Home() {
   return (
@@ -42,7 +42,7 @@ function Home() {
                   <p>{text.coreStatement}</p>
                 </AnimatedDiv>
                 <div className="col-lg-7 d-flex justify-content-center float-right">
-                  <AnimatedDiv className="ratio ratio-16x9" duration={1} delay={0.7} hidden={{ opacity: 0, scale: 0.9 }}>
+                  <AnimatedDiv className="ratio ratio-16x9" duration={0.7} delay={0.7} hidden={{ opacity: 0, scale: 0.95 }}>
                     <iframe src="https://www.youtube.com/embed/j8RFu0XfuFM?si=_PAwruA25F45kFn-" allowFullScreen={true}></iframe>
                   </AnimatedDiv>
                 </div>

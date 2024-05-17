@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Navbar from '../components/Navbar';
 import text from '../assets/text.json';
-import image1 from '../assets/images/premise1.jpg';
-import image2 from '../assets/images/premise2.jpg';
-import image3 from '../assets/images/premise3.jpg';
-import image4 from '../assets/images/premise4.png';
-import image5 from '../assets/images/premise5.jpg';
-import image6 from '../assets/images/premise6.jpg';
-import image7 from '../assets/images/premise7.jpg';
-import image8 from '../assets/images/premise8.jpg';
+import image1 from '../assets/premise/1.jpg';
+import image2 from '../assets/premise/2.jpg';
+import image3 from '../assets/premise/3.jpg';
+import image4 from '../assets/premise/4.jpg';
+import image5 from '../assets/premise/5.jpg';
+import image6 from '../assets/premise/6.jpg';
+import image7 from '../assets/premise/7.jpg';
+import image8 from '../assets/premise/8.jpg';
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 

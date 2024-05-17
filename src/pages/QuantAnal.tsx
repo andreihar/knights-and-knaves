@@ -2,8 +2,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import text from "../assets/text.json";
 import analysisBg from "../assets/images/analysis.jpg";
-import hpChart from "../assets/images/hp_chart.png";
-import probMatrix from "../assets/images/prob_matrix.png";
+import hpChart from "../assets/images/hp_chart.jpg";
+import probMatrix from "../assets/images/prob_matrix.jpg";
 
 function QuantAnal() {
   return (

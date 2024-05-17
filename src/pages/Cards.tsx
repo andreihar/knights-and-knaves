@@ -4,24 +4,24 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
 // Cards
-import arrow from "../assets/cards/Arrow Strike.png";
-import sword from "../assets/cards/Sword Strike.png";
-import jousting from "../assets/cards/Jousting.png";
-import shield from "../assets/cards/Shield.png";
-import kasword from "../assets/cards/Knight's Arsenal Shield.png";
-import kashield from "../assets/cards/Knight's Arsenal Sword.png";
-import potion from "../assets/cards/Knight's Potion.png";
-import swap from "../assets/cards/Noble Swap.png";
-import intel from "../assets/cards/King's Intel.png";
-import ransack from "../assets/cards/Royal Ransack.png";
-import alliance from "../assets/cards/Alliance.png";
+import arrow from "../assets/cards/Arrow Strike.jpg";
+import sword from "../assets/cards/Sword Strike.jpg";
+import jousting from "../assets/cards/Jousting.jpg";
+import shield from "../assets/cards/Shield.jpg";
+import kasword from "../assets/cards/Knight's Arsenal Shield.jpg";
+import kashield from "../assets/cards/Knight's Arsenal Sword.jpg";
+import potion from "../assets/cards/Knight's Potion.jpg";
+import swap from "../assets/cards/Noble Swap.jpg";
+import intel from "../assets/cards/King's Intel.jpg";
+import ransack from "../assets/cards/Royal Ransack.jpg";
+import alliance from "../assets/cards/Alliance.jpg";
 // Chars
-import red1 from "../assets/cards/Cedric.png";
-import red2 from "../assets/cards/Seraphina.png";
-import blue1 from "../assets/cards/Kaelan.png";
-import blue2 from "../assets/cards/Ingmar.png";
-import green1 from "../assets/cards/Dante.png";
-import green2 from "../assets/cards/Tyrell.png";
+import red1 from "../assets/cards/Cedric.jpg";
+import red2 from "../assets/cards/Seraphina.jpg";
+import blue1 from "../assets/cards/Kaelan.jpg";
+import blue2 from "../assets/cards/Ingmar.jpg";
+import green1 from "../assets/cards/Dante.jpg";
+import green2 from "../assets/cards/Tyrell.jpg";
 
 
 function Contributions() {

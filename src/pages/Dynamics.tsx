@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import text from "../assets/text.json";
-import dynamicsBg from "../assets/images/dynamics.png";
+import dynamicsBg from "../assets/images/dynamics.jpg";
 
 function Dynamics() {
   return (
