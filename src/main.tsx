@@ -4,8 +4,6 @@ import App from './App.tsx';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import './style/index.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import './style/sass.scss';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 

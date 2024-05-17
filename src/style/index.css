@@ -194,6 +194,9 @@ button {
 }
 .modal-header {
   padding: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Img Text */
@@ -321,6 +324,12 @@ button {
 }
 
 /* Premise */
+.margin-navbar-height {
+  margin-top: var(--navbar-height);
+}
+.min-height {
+  min-height: calc(100vh - var(--navbar-height));
+}
 .fade-enter {
   opacity: 0;
 }

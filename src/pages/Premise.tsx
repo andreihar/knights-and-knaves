@@ -2,11 +2,16 @@ import { useState, useEffect } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Navbar from '../components/Navbar';
 import text from '../assets/text.json';
-import image1 from '../assets/premise/image1.jpg';
-import image2 from '../assets/premise/image2.jpg';
-import image3 from '../assets/premise/image3.jpg';
+import image1 from '../assets/images/premise1.jpg';
+import image2 from '../assets/images/premise2.jpg';
+import image3 from '../assets/images/premise3.jpg';
+import image4 from '../assets/images/premise4.png';
+import image5 from '../assets/images/premise5.jpg';
+import image6 from '../assets/images/premise6.jpg';
+import image7 from '../assets/images/premise7.jpg';
+import image8 from '../assets/images/premise8.jpg';
 
-const images = [image1, image2, image3, image1, image2, image3, image1, image2];
+const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 
 const events = Object.keys(text.timeline).length / 3;
 const eventData = Array.from({ length: events }, (_, i) => {
@@ -40,14 +45,14 @@ function Premise() {
   return (
     <>
       <Navbar />
-      <div className="position-relative" style={{ height: `${events * 100}vh` }}>
+      <div className="position-relative margin-navbar-height" style={{ height: `${events * 100}vh` }}>
         <TransitionGroup>
           <CSSTransition
             key={activeIndex}
             timeout={500}
             classNames="fade"
           >
-            <div className="slide position-fixed w-100 h-100 top-0" style={{ backgroundImage: `url(${eventData[activeIndex].picture})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className="slide position-fixed w-100 min-height" style={{ backgroundImage: `url(${eventData[activeIndex].picture})`, backgroundSize: 'cover', backgroundPosition: 'top' }}>
               <div className="border-frame modal-body position-absolute text-white py-2 px-1 pb-1 pl-3" style={{ bottom: '10px', left: '10px', right: '10px', maxWidth: '600px' }}>
                 <div className="d-flex justify-content-between">
                   <div className="p-4">
