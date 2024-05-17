@@ -23,7 +23,6 @@ import blue2 from "../assets/cards/Ingmar.jpg";
 import green1 from "../assets/cards/Dante.jpg";
 import green2 from "../assets/cards/Tyrell.jpg";
 
-
 function Contributions() {
   const actions = [arrow, sword, jousting, shield, kasword, kashield, potion, swap, intel, ransack, alliance];
   const chars = [red1, red2, blue1, blue2, green1, green2];

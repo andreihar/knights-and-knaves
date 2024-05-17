@@ -39,14 +39,14 @@ function Gallery() {
                 1200: 2,
                 768: 1
               }}
-              className="my-masonry-grid"
-              columnClassName="my-masonry-grid_column">
+              className="my-masonry-grid w-auto d-flex"
+              columnClassName="my-masonry-grid_column ps-4">
               {images.map((image, index) => (
-                <div key={index} className="image-container">
+                <div key={index} className="image-container position-relative">
                   <Zoom>
                     <img src={image.src} alt="image.title" className="img-fluid" />
                   </Zoom>
-                  <h1>{image.title}</h1>
+                  <h1 className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center">{image.title}</h1>
                 </div>
               ))}
             </Masonry>

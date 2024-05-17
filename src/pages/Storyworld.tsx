@@ -31,14 +31,14 @@ function Storyworld() {
             <div className="row g-5 py-5">
               <div>
                 <h1 className="fw-bold text-white mb-5">Regions</h1>
-                <div className="quadruple-grid">
+                <div className="quadruple-grid d-grid">
                   {defaultRegions.map((region, index) => {
                     return (
                       <React.Fragment key={index}>
                         <a href="#" onClick={(event) => { event.preventDefault(); handleClick(region); }}>
-                          <div className="img-text">
+                          <div className="img-text position-relative d-flex justify-content-center align-items-center">
                             <img src={region.picture} alt={region.name} className="img-fluid" />
-                            <h3>{region.name}</h3>
+                            <h3 className="position-absolute bottom-0 text-white fw-bold">{region.name}</h3>
                           </div>
                         </a>
                       </React.Fragment>

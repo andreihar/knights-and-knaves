@@ -34,9 +34,7 @@ function Premise() {
       const newIndex = Math.round(window.scrollY / window.innerHeight);
       setActiveIndex(newIndex);
     };
-
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

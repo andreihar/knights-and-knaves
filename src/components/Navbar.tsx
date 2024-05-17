@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className={'navbar navbar-expand-lg navbar-dark bg-dark fixed-top'}>
       <div className="container">
-        <Link to='/' className="navbar-brand"><img src={logo} alt="Logo" className="navbar-logo" /></Link>
+        <Link to='/' className="navbar-brand"><img src={logo} alt="Logo" className="navbar-logo w-auto" /></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>

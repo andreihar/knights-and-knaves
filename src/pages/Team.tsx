@@ -27,7 +27,6 @@ function Contributions() {
       text: jsonData.text[index],
       contribution: jsonData.gameDev[index],
       projectParts: [
-        // { part: 'Game Development', contribution: jsonData.gameDev[index] },
         { part: 'Website', contribution: jsonData.website[index] },
         { part: 'Backstory', contribution: jsonData.backstory[index] },
         { part: 'Dynamics', contribution: jsonData.dynamics[index] },

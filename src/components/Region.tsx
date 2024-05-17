@@ -10,7 +10,7 @@ type RegionProps = {
 
 const Region: React.FC<RegionProps> = ({ region, isOpen, onRequestClose }) => {
   return (
-    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Region Page" className="ReactModal__Content region" overlayClassName="ReactModal__Overlay"
+    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Region Page" className="ReactModal__Content region position-absolute top-0 start-0 end-0 bottom-0 border-0 bg-white overflow-auto" overlayClassName="ReactModal__Overlay position-fixed top-0 start-0 end-0 bottom-0"
       style={{
         content: {
           backgroundImage: `url(${region.picture})`,
@@ -18,7 +18,7 @@ const Region: React.FC<RegionProps> = ({ region, isOpen, onRequestClose }) => {
           backgroundPosition: 'center'
         },
       }}>
-      <div className="modal-header" data-bs-theme="dark">
+      <div className="p-3 d-flex justify-content-between align-items-center" data-bs-theme="dark">
         <h5 className="modal-title" id="characterOverlayLabel"></h5>
         <button type="button" className="btn-close fs-3" onClick={onRequestClose}></button>
       </div>

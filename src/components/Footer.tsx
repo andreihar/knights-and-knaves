@@ -10,7 +10,7 @@ function Footer() {
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-2">
           <div className="col mb-3">
             <Link to="/" className="align-items-center mb-3 link-body-emphasis text-decoration-none">
-              <img src={logo} alt="Logo" className="bi me-2 navbar-logo" />
+              <img src={logo} alt="Logo" className="bi me-2 navbar-logo w-auto" />
             </Link>
           </div>
           <div className="col mb-3">

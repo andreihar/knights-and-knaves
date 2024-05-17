@@ -30,7 +30,7 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
       break;
   }
   return (
-    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Character Page" className="ReactModal__Content" overlayClassName="ReactModal__Overlay">
+    <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Character Page" className="ReactModal__Content position-absolute top-0 start-0 end-0 bottom-0 border-0 bg-white overflow-auto" overlayClassName="ReactModal__Overlay position-fixed top-0 start-0 end-0 bottom-0">
       <div className="d-flex h-100">
         <div className="d-grid align-content-center p-4" style={{ flex: '1' }}>
           <div className="overflow-auto d-flex flex-column align-items-center pe-5">
@@ -50,7 +50,7 @@ const Character: React.FC<CharProps> = ({ character, isOpen, onRequestClose }) =
           backgroundPosition: 'top',
           clipPath: 'polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%)'
         }}>
-          <div className="modal-header" data-bs-theme="dark">
+          <div className="p-3 d-flex justify-content-between align-items-center" data-bs-theme="dark">
             <h5 className="modal-title" id="characterOverlayLabel"></h5>
             <button type="button" className="btn-close fs-3" onClick={onRequestClose}></button>
           </div>

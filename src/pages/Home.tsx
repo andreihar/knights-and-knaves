@@ -24,7 +24,7 @@ function Home() {
             </AnimatedDiv>
             <AnimatedDiv duration={1} delay={1.2} hidden={{ opacity: 0 }}>
               <p className="lead">
-                <Link to="#trailer" className="button">Watch Trailer</Link>
+                <Link to="#trailer" className="button py-3 px-4 position-relative align-middle">Watch Trailer</Link>
               </p>
             </AnimatedDiv>
           </div>
@@ -61,22 +61,22 @@ function Home() {
                 </AnimatedDiv>
                 <div className="col">
                   <div>
-                    <AnimatedDiv className="quadruple-grid" duration={1} delay={0.7} hidden={{ opacity: 0, x: -50 }}>
-                      <div className="img-text">
+                    <AnimatedDiv className="quadruple-grid d-grid" duration={1} delay={0.7} hidden={{ opacity: 0, x: -50 }}>
+                      <div className="img-text position-relative d-flex justify-content-center align-items-center">
                         <img src="https://i0.wp.com/islaythedragon.com/wp-content/uploads/2014/01/1-IMG_05761.jpg?fit=1200%2C900&ssl=1&w=640" alt="Inspiration" className="img-fluid" />
-                        <h3>Coup</h3>
+                        <h3 className="position-absolute bottom-0 text-white fw-bold">Coup</h3>
                       </div>
-                      <div className="img-text">
+                      <div className="img-text position-relative d-flex justify-content-center align-items-center">
                         <img src="https://149455152.v2.pressablecdn.com/wp-content/uploads/2014/02/Werewolf-cards.jpg" alt="Inspiration" className="img-fluid" />
-                        <h3 className="text-center fs-4">One Night Ultimate Werewolf</h3>
+                        <h3 className="position-absolute bottom-0 text-white fw-bold text-center fs-4">One Night Ultimate Werewolf</h3>
                       </div>
-                      <div className="img-text">
+                      <div className="img-text position-relative d-flex justify-content-center align-items-center">
                         <img src="https://c4.wallpaperflare.com/wallpaper/1008/880/1005/the-witcher-gwent-the-witcher-card-game-wallpaper-preview.jpg" alt="Inspiration" className="img-fluid" />
-                        <h3 className="fs-3">Gwent</h3>
+                        <h3 className="position-absolute bottom-0 text-white fw-bold fs-3">Gwent</h3>
                       </div>
-                      <div className="img-text">
+                      <div className="img-text position-relative d-flex justify-content-center align-items-center">
                         <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/12/13/17/42-hobbit-mgmwarner.jpg" alt="Inspiration" className="img-fluid" />
-                        <h3>The Hobbit</h3>
+                        <h3 className="position-absolute bottom-0 text-white fw-bold">The Hobbit</h3>
                       </div>
                     </AnimatedDiv>
                   </div>

@@ -75,9 +75,9 @@ const Characters = () => {
                 <div className="col d-flex gap-3">
                   {redTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center">
-                        <img src={character.picture} alt="Card" className="character-img" />
-                        <h3>{character.name}</h3>
+                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                        <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
+                        <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
@@ -94,9 +94,9 @@ const Characters = () => {
                 <div className="col d-flex gap-3 order-2 order-xxl-1">
                   {greenTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center">
-                        <img src={character.picture} alt="Card" className="character-img" />
-                        <h3>{character.name}</h3>
+                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                        <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
+                        <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
@@ -127,9 +127,9 @@ const Characters = () => {
                 <div className="col d-flex gap-3">
                   {blueTeam.map((character, index) => (
                     <a href="#" onClick={(event) => { event.preventDefault(); handleClick(character); }}>
-                      <div key={index} className="img-text text-center">
-                        <img src={character.picture} alt="Card" className="character-img" />
-                        <h3>{character.name}</h3>
+                      <div key={index} className="img-text text-center position-relative d-flex justify-content-center align-items-center">
+                        <img src={character.picture} alt="Card" className="character-img mh-100 mw-100" />
+                        <h3 className="position-absolute bottom-0 text-white fw-bold">{character.name}</h3>
                       </div>
                     </a>
                   ))}
