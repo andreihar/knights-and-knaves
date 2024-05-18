@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import Anim from '../components/Anim';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -44,17 +43,17 @@ const Characters = () => {
                 <Anim className="col-lg-4 text-center" duration={0.7} delay={0.1} hidden={{ opacity: 0, y: 50 }}>
                   <img src={red} alt="" />
                   <h1>{text.factions.titleRed}</h1>
-                  <Link to="#red" className="text-uppercase">Learn More</Link>
+                  <a href="#red" className="text-uppercase">Learn More</a>
                 </Anim>
                 <Anim className="col-lg-4 text-center" duration={0.7} delay={0.2} hidden={{ opacity: 0, y: 50 }}>
                   <img src={green} alt="" />
                   <h1>{text.factions.titleGreen}</h1>
-                  <Link to="#green" className="text-uppercase">Learn More</Link>
+                  <a href="#green" className="text-uppercase">Learn More</a>
                 </Anim>
                 <Anim className="col-lg-4 text-center" duration={0.7} delay={0.3} hidden={{ opacity: 0, y: 50 }}>
                   <img src={blue} alt="" />
                   <h1>{text.factions.titleBlue}</h1>
-                  <Link to="#blue" className="text-uppercase">Learn More</Link>
+                  <a href="#blue" className="text-uppercase">Learn More</a>
                 </Anim>
               </div>
             </div>

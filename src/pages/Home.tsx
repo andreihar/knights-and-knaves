@@ -1,4 +1,3 @@
-import { HashLink as Link } from 'react-router-hash-link';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Anim from '../components/Anim';
@@ -24,7 +23,7 @@ function Home() {
             </Anim>
             <Anim duration={1} delay={1.2} hidden={{ opacity: 0 }}>
               <p className="lead">
-                <Link to="#trailer" className="button py-3 px-4 position-relative align-middle">Watch Trailer</Link>
+                <a href="#trailer" className="button py-3 px-4 position-relative align-middle">Watch Trailer</a>
               </p>
             </Anim>
           </div>

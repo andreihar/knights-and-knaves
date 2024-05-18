@@ -1,4 +1,4 @@
-import { useRoutes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Cards from './pages/Cards';
 import Characters from './pages/Characters';
@@ -14,23 +14,23 @@ import Playtest from './pages/Playtest';
 import QuantAnal from './pages/QuantAnal';
 
 function App() {
-  const element = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: 'cards', element: <Cards /> },
-    { path: 'characters', element: <Characters /> },
-    { path: 'storyworld', element: <Storyworld /> },
-    { path: 'premise', element: <Premise /> },
-    { path: 'dynamics', element: <Dynamics /> },
-    { path: 'tradeoffs', element: <TradeOffs /> },
-    { path: 'duration', element: <Duration /> },
-    { path: 'gallery', element: <Gallery /> },
-    { path: 'contributions', element: <Team /> },
-    { path: 'meeting', element: <Meeting /> },
-    { path: 'playtest', element: <Playtest /> },
-    { path: 'analysis', element: <QuantAnal /> },
-  ]);
-
-  return element;
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="cards" element={<Cards />} />
+      <Route path="characters" element={<Characters />} />
+      <Route path="storyworld" element={<Storyworld />} />
+      <Route path="premise" element={<Premise />} />
+      <Route path="dynamics" element={<Dynamics />} />
+      <Route path="tradeoffs" element={<TradeOffs />} />
+      <Route path="duration" element={<Duration />} />
+      <Route path="gallery" element={<Gallery />} />
+      <Route path="contributions" element={<Team />} />
+      <Route path="meeting" element={<Meeting />} />
+      <Route path="playtest" element={<Playtest />} />
+      <Route path="analysis" element={<QuantAnal />} />
+    </Routes>
+  );
 }
 
 export default App;

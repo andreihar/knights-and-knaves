@@ -24,7 +24,6 @@
     "react-medium-image-zoom": "^5.2.0",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.22.0",
-    "react-router-hash-link": "^2.4.3",
     "react-transition-group": "^4.4.5",
     "sass": "^1.70.0"
   },
