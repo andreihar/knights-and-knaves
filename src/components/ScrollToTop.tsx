@@ -5,7 +5,11 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    document.documentElement.classList.add('no-smooth-scroll');
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.classList.remove('no-smooth-scroll');
+    }, 0);
   }, [pathname]);
 
   return null;
