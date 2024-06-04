@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 html {
   scroll-padding-top: var(--navbar-height);
-  /* scroll-behavior: auto !important; */
 }
 .no-smooth-scroll {
   scroll-behavior: auto !important;
@@ -169,7 +168,6 @@ section hr {
 
 /* Overlay */
 .ReactModal__Overlay {
-  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1031;
 }
 .ReactModal__Content {
