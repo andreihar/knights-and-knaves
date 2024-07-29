@@ -57,7 +57,10 @@ const Character: React.FC<CharProps> = ({ character, isOpen: isOpenProp, onReque
                   <div className="col-lg-8 col-xxl-8 col-md-10 col-12 ms-auto">
                     <div className="d-flex align-items-center gap-2">
                       <img src={teamPicture} alt="Colour" style={{ maxWidth: '75px' }} />
-                      <h1 className="display-4 lh-1" style={{ color: colour }}>{character.name}</h1>
+                      <div>
+                        <h1 className="display-4 lh-1 mb-0" style={{ color: colour }}>{character.name}</h1>
+                        <h2 className="lh-1 text-secondary">the {character.title}</h2>
+                      </div>
                     </div>
                     <p className="my-5">{character.description}</p>
                   </div>

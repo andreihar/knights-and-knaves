@@ -43,13 +43,9 @@ function Premise() {
   return (
     <>
       <Navbar />
-      <div className="position-relative margin-navbar-height" style={{ height: `${events * 100}vh` }}>
+      <div className="ReactModal__Overlay region position-relative margin-navbar-height" style={{ height: `${events * 100}vh` }}>
         <TransitionGroup>
-          <CSSTransition
-            key={activeIndex}
-            timeout={500}
-            classNames="fade"
-          >
+          <CSSTransition key={activeIndex} timeout={500} classNames="fade">
             <div className="slide position-fixed w-100 min-height" style={{ backgroundImage: `url(${eventData[activeIndex].picture})`, backgroundSize: 'cover', backgroundPosition: 'top' }}>
               <div className="border-frame modal-body position-absolute text-white py-2 px-1 pb-1 pl-3" style={{ bottom: '10px', left: '10px', right: '10px', maxWidth: '600px' }}>
                 <div className="d-flex justify-content-between">

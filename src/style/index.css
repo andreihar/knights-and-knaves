@@ -9,16 +9,16 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {
+.ReactModal__Overlay ::-webkit-scrollbar {
   width: 10px;
 }
-::-webkit-scrollbar-track {
+.ReactModal__Overlay ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, .15);
 }
-::-webkit-scrollbar-thumb {
+.ReactModal__Overlay ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, .34);
 }
-::-webkit-scrollbar-thumb:hover {
+.ReactModal__Overlay ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, .60);
 }
 
