@@ -11,7 +11,7 @@
 	"timeline": {
 		"date1": "851",
 		"event1": "The Founding of Estoria",
-		"description1": "The Kingdom of Estoria is established in the serene Glimmerwood Forest under King Aymeric the Unifier. Leaders of five distinct regions come together, pledging loyalty to the crown while preserving their traditions and interests.",
+		"description1": "The Kingdom of Estoria is established in the serene Feywild Forest under King Aymeric the Unifier. Leaders of five distinct regions come together, pledging loyalty to the crown while preserving their traditions and interests.",
 		"date2": "1180",
 		"event2": "The Golden Age",
 		"description2": "Estoria flourishes under the rule of King Aldric III the Wise. Trade, culture, and magic flourish, and the noble houses work in harmony, each contributing to the kingdom's prosperity.",
@@ -23,13 +23,16 @@
 		"description4": "As the struggle for the throne intensifies, three factions emerge: the Infernal Legion, led by Prince Cedric and seeking to secure his claim to the throne; the Oakheart Hanse, a group of mercenaries hired by various noble houses to influence the succession in their favour; and the Shadow Brotherhood, dedicated to preserving the old order and uncovering the truth behind the king's mysterious death.",
 		"date5": "1190",
 		"event5": "The Night of Knives",
-		"description5": "The factions come together at Glimmerwood Forest, the birthplace of Estoria, in an attempt to negotiate a resolution to the succession crisis. An assassination attempt on Prince Cedric during a council meeting is foiled, serving as the catalyst for the onset of civil war. The factions bolster their defences and engage in clandestine operations against each other. Secret pacts and betrayals become the norm.",
+		"description5": "The factions come together at Feywild Forest, the birthplace of Estoria, in an attempt to negotiate a resolution to the succession crisis. An assassination attempt on Prince Cedric during a council meeting is foiled, serving as the catalyst for the onset of civil war. The factions bolster their defences and engage in clandestine operations against each other. Secret pacts and betrayals become the norm.",
 		"date6": "1195",
 		"event6": "The Battle of the Three Banners",
-		"description6": "A climactic battle takes place at the heart of Estoria, with each faction fielding its forces in a bid for ultimate control. The battle is fierce and costly, with alliances shifting even on the battlefield as leaders betray former allies for a chance at victory. During the chaos, the true heir emerges, calling for unity and an end to the bloodshed.",
-		"date7": "CURRENT",
-		"event7": "The New Dawn",
-		"description7": "Exhausted and depleted from years of strife, the factions agree to a tenuous peace as the weak and easily controlled true heir ascends the throne. With the war over, the struggle for power turns covert. Espionage, poisonings, covert alliances, and betrayals become the new methods of vying for control over the now powerless king. As the factions manoeuvre behind the scenes, the true battle for the future of Estoria has only just begun."
+		"description6": "A climactic battle takes place at the heart of Estoria, with each faction fielding its forces in a bid for ultimate control. The battle is fierce and costly, with alliances shifting even on the battlefield as leaders betray former allies for a chance at victory.",
+		"date7": "1195",
+		"event7": "The True Heir",
+		"description7": "During the chaos, the true heir emerges, calling for unity and an end to the bloodshed. Exhausted and depleted from years of strife, the factions agree to a tenuous peace and crown the heir. Politically inexperienced and without allies, the new king is highly manipulable, and with the war over, the struggle for power turns covert.",
+		"date8": "CURRENT",
+		"event8": "The New Dawn",
+		"description8": "Espionage, poisonings, covert alliances, and betrayals become the new methods of vying for control over the now powerless king. As the factions manoeuvre behind the scenes, the true battle for the future of Estoria has only just begun."
 	},
 	"factions": {
 		"titleRed": "Infernal Legion",
