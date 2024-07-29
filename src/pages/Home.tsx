@@ -42,7 +42,7 @@ function Home() {
                 </Anim>
                 <div className="col-lg-7 d-flex justify-content-center float-right">
                   <Anim className="ratio ratio-16x9" duration={0.7} delay={0.7} hidden={{ opacity: 0, scale: 0.95 }}>
-                    <iframe src="https://www.youtube.com/embed/j8RFu0XfuFM?si=_PAwruA25F45kFn-" allowFullScreen={true}></iframe>
+                    <iframe src="https://www.youtube.com/embed/j8RFu0XfuFM?si=_PAwruA25F45kFn-" allowFullScreen={true} title="YouTube video trailer"></iframe>
                   </Anim>
                 </div>
               </div>

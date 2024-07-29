@@ -10,8 +10,9 @@ import image5 from '../assets/premise/5.jpg';
 import image6 from '../assets/premise/6.jpg';
 import image7 from '../assets/premise/7.jpg';
 import image8 from '../assets/premise/8.jpg';
+import image9 from '../assets/premise/9.jpg';
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8];
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
 const events = Object.keys(text.timeline).length / 3;
 const eventData = Array.from({ length: events }, (_, i) => {
