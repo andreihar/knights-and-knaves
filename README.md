@@ -13,7 +13,7 @@
 [![Licence][licence-badge]][licence]
 [![LinkedIn][linkedin-badge]][linkedin]
 
-**An online hub for the strategic card-based board game**
+**An immersive online hub for the strategic card-based board game**
 
 A central platform for exploring and engaging with "Knights and Knaves," a dynamic card-based board game. Designed with a mediaeval fantasy theme, the site offers a comprehensive overview of the game's components, rules, and lore.
 
@@ -99,11 +99,11 @@ The website can be accessed through the URL `http://localhost:5173/`.
 The Home Page acts as the gateway to the game, featuring an embedded trailer that provides a visual introduction. It also includes sections that outline the game's inspirations and core pillars. This page is designed to immediately convey the essence of the game and its unique elements, offering users a concise overview of what they can expect.
 
 <p align="center">
-<img src="readme/hero.jpg" alt="Hero" height="300">
+<img src="readme/hero.jpg" alt="Hero" height="400">
 </p>
 
 <p align="center">
-<img src="readme/trailer.jpg" alt="Trailer" height="300">
+<img src="readme/trailer.jpg" alt="Trailer" height="400">
 </p>
 
 ### Characters
@@ -111,11 +111,11 @@ The Home Page acts as the gateway to the game, featuring an embedded trailer tha
 The Characters Page provides an overview of the three factions. Users can explore detailed descriptions of each faction and, by clicking on individual characters, access their biographies. This page offers a comprehensive look at the game's key figures and their roles within their respective factions.
 
 <p align="center">
-<img src="readme/factions.jpg" alt="Factions" height="300">
+<img src="readme/factions.jpg" alt="Factions" height="400">
 </p>
 
 <p align="center">
-<img src="readme/character.jpg" alt="Character" height="300">
+<img src="readme/character.jpg" alt="Character" height="400">
 </p>
 
 ### Storyworld
@@ -123,11 +123,11 @@ The Characters Page provides an overview of the three factions. Users can explor
 The Storyworld Page presents an overview of the various regions featured in the lore of the game. Users can explore a list of these regions, and by selecting each one, they can delve deeper into its background and significance within the game's world.
 
 <p align="center">
-<img src="readme/storyworld.jpg" alt="Storyworld" height="300">
+<img src="readme/storyworld.jpg" alt="Storyworld" height="400">
 </p>
 
 <p align="center">
-<img src="readme/region.jpg" alt="Region" height="300">
+<img src="readme/region.jpg" alt="Region" height="400">
 </p>
 
 ### Premise
@@ -135,7 +135,7 @@ The Storyworld Page presents an overview of the various regions featured in the 
 The Premise Page features a timeline presented in a slide format, with each slide detailing significant events that shape the story of the game. This visual timeline helps users understand the chronological progression of key events in the game's lore.
 
 <p align="center">
-<img src="readme/premise.jpg" alt="Premise" height="300">
+<img src="readme/premise.jpg" alt="Premise" height="400">
 </p>
 
 ### Description of Game
@@ -143,7 +143,7 @@ The Premise Page features a timeline presented in a slide format, with each slid
 The Description Pages offer blog-style entries where users can explore detailed analyses of various aspects of Knights and Knaves. This section covers the game's Dynamics, Trade-Offs, Duration, and Quantitative Analysis, providing a deep dive into the game's mechanics and strategic elements.
 
 <p align="center">
-<img src="readme/description.jpg" alt="Description" height="300">
+<img src="readme/description.jpg" alt="Description" height="400">
 </p>
 
 ### Gallery
@@ -151,7 +151,7 @@ The Description Pages offer blog-style entries where users can explore detailed 
 The Gallery Page offers a collection of images related to the game, including views of the game setup, prototype cards, and other visual elements. Users can click on each image to zoom in and inspect the details more closely.
 
 <p align="center">
-<img src="readme/gallery.jpg" alt="Gallery" height="300">
+<img src="readme/gallery.jpg" alt="Gallery" height="400">
 </p>
 
 ### Team
@@ -159,7 +159,7 @@ The Gallery Page offers a collection of images related to the game, including vi
 The Team Page provides detailed descriptions of each member's role in the development of Knights and Knaves. It also includes visual percent bars to illustrate the contribution of each team member across various aspects of the game development process.
 
 <p align="center">
-<img src="readme/team.jpg" alt="Team" height="300">
+<img src="readme/team.jpg" alt="Team" height="400">
 </p>
 
 ### Cards
@@ -167,11 +167,11 @@ The Team Page provides detailed descriptions of each member's role in the develo
 The Cards Page showcases Action, Special, and Identity cards that exist in the game. Users can click on each card to zoom in and inspect them better.
 
 <p align="center">
-<img src="readme/cards.jpg" alt="Cards" height="300">
+<img src="readme/cards.jpg" alt="Cards" height="400">
 </p>
 
 <p align="center">
-<img src="readme/zoom.jpg" alt="Zoom" height="300">
+<img src="readme/zoom.jpg" alt="Zoom" height="400">
 </p>
 
 ### PDF Links
@@ -179,7 +179,7 @@ The Cards Page showcases Action, Special, and Identity cards that exist in the g
 The website also features links to several pages with essential PDF files related to the game, including the Rulebook and various documentation like Meeting Logs, Playtest Logs, and Flowcharts.
 
 <p align="center">
-<img src="readme/logs.jpg" alt="Logs" height="300">
+<img src="readme/logs.jpg" alt="Logs" height="400">
 </p>
 
 
