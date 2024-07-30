@@ -1,26 +1,25 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/andreihar/memory-lane">
+  <a href="https://github.com/andreihar/knights-and-knaves">
     <img src="src/assets/logo.png" alt="Logo" width="97" height="80">
   </a>
   
-# Memory Lane
+# Knights and Knaves
 
 
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-badge]][contributors]
-[![Release][release-badge]][release]
 [![Licence][licence-badge]][licence]
 [![LinkedIn][linkedin-badge]][linkedin]
 
-**Taiwanese Hokkien transliterator from Chinese characters**
+**An online hub for the strategic card-based board game**
 
-It has methods that allow to customise transliteration and retrieve any necessary information about Taiwanese Hokkien pronunciation.<br />
-Includes word tokeniser for Taiwanese Hokkien.
+A central platform for exploring and engaging with "Knights and Knaves," a dynamic card-based board game. Designed with a mediaeval fantasy theme, the site offers a comprehensive overview of the game's components, rules, and lore.
 
-[Report Bug][bug] •
-[PyPI][pypi]
+[Live Demo][demo]
+
+
 
 </div>
 
@@ -40,33 +39,23 @@ Includes word tokeniser for Taiwanese Hokkien.
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#install">Install</a></li>
     <li>
       <a href="#features">Features</a>
       <ul>
-        <li>
-          <a href="#questions-creation">Questions Creation</a>
-          <ul>
-            <li><a href="#audio-recorder">Audio Recorder</a></li>
-          </ul>
-        </li>
+        <li><a href="#home-page">Home Page</a></li>
+        <li><a href="#characters">Characters</a></li>
+        <li><a href="#storyworld">Storyworld</a></li>
+        <li><a href="#premise">Premise</a></li>
+        <li><a href="#description-of-game">Description of Game</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#cards">Cards</a></li>
+        <li><a href="#pdf-links">PDF Links</a></li>
       </ul>
     </li>
-    <li><a href="#install">Install</a></li>
-    <li>
-      <a href="#usage">Usage</a>
-      <ul>
-        <li>
-          <a href="#converter">Converter</a>
-          <ul>
-            <li><a href="#system">System</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#example">Example</a></li>
-    <li><a href="#data">Data</a></li>
+    <li><a href="#lighthouse-report">Lighthouse Report</a></li>
     <li><a href="#contributors">Contributors</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#licence">Licence</a></li>
   </ol>
 </details>
@@ -76,95 +65,131 @@ Includes word tokeniser for Taiwanese Hokkien.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Memory Lane is the final project created by members of the ItJustWorks team for the course in Introduction to Software Engineering in the Summer semester of 2022. The theme of the course was agile software development in three sprints of the Android mobile application that should enhance the lives of people diagnosed with dementia, particularly the elderly.
+Knights and Knaves was developed as part of the final project for the course in Introduction to Game Studies in the Spring semester of 2024. This project involved creating an engaging online platform to support and enhance the experience of the strategic card-based game, "Knights and Knaves."
+
+Designed to provide an immersive and comprehensive experience, the website offers detailed insights into the game's mechanics, development logs, storyworld setting, and other necessary components. It presents clear explanations of the rules and gameplay, while also delving into the game's rich lore and narrative. Built with modern web technologies, the site ensures a user-friendly and fully responsive experience, allowing players to fully engage with and understand the game's complexities.
 
 ### Built With
 
-* [![Firebase][firebase-badge]][firebase]
-
-
-
-<!-- FEATURES -->
-## Features
-
-### Questions Creation
-
-To modify the quiz, the user needs to provide an image, a video, and five questions for each question set.
-
-<p align="center">
-<img src="readme/question_sets_list.jpg" alt="Quesiton Sets List" width="200">
-</p>
-
-#### Audio Recorder
-
-Users can upload an audio file from their mobile phone or record it with an in-app audio recorder.
-
-<p align="center">
-<img src="readme/audio_option.jpg" alt="Audio Options" width="200">
-</p>
+* [![React][react-badge]][react]
+* [![Vite][vite-badge]][vite]
+* [![Bootstrap][bootstrap-badge]][bootstrap]
 
 
 
 <!-- INSTALL -->
 ## Install
 
-Taibun can be installed from [pypi][pypi]
+Run the app locally:
 
 ```bash
-$ pip install taibun
+$ npm install
+$ npm run dev
 ```
 
-
-
-<!-- USAGE -->
-## Usage
-
-### Converter
-
-`Converter` class transliterates the Chinese characters to the chosen transliteration system with parameters specified by the developer. Works for both Traditional and Simplified characters.
-
-```python
-# constructor
-c = Converter(system, dialect, format, delimiter, sandhi, punctuation)
-
-# transliterate Chinese characters
-c.get(input)
-
-# convert Simplified Chinese characters to Traditional Chinese Characters
-c.to_traditional(input)
-```
-
-#### System
-
-`system` String - system of transliteration.
-
-* `Tailo` (default) - [Tâi-uân Lô-má-jī Phing-im Hong-àn][tailo-wiki]
-* `POJ` - [Pe̍h-ōe-jī][poj-wiki]
-
-| text | Tailo   | POJ     |
-|------|---------|---------|
-| 臺灣 | Tâi-uân | Tâi-oân |
+The website can be accessed through the URL `http://localhost:5173/`.
 
 
 
-<!-- EXAMPLE -->
-## Example
+<!-- FEATURES -->
+## Features
 
-```python
-from taibun import Converter, Tokeniser
+### Home Page
 
-# System
-c = Converter() # Tailo system default
-c.get('先生講，學生恬恬聽。')
->> Sian-sinn kóng, ha̍k-sing tiām-tiām thiann.
-```
+The Home Page acts as the gateway to the game, featuring an embedded trailer that provides a visual introduction. It also includes sections that outline the game's inspirations and core pillars. This page is designed to immediately convey the essence of the game and its unique elements, offering users a concise overview of what they can expect.
+
+<p align="center">
+<img src="readme/hero.jpg" alt="Hero" height="300">
+</p>
+
+<p align="center">
+<img src="readme/trailer.jpg" alt="Trailer" height="300">
+</p>
+
+### Characters
+
+The Characters Page provides an overview of the three factions. Users can explore detailed descriptions of each faction and, by clicking on individual characters, access their biographies. This page offers a comprehensive look at the game's key figures and their roles within their respective factions.
+
+<p align="center">
+<img src="readme/factions.jpg" alt="Factions" height="300">
+</p>
+
+<p align="center">
+<img src="readme/character.jpg" alt="Character" height="300">
+</p>
+
+### Storyworld
+
+The Storyworld Page presents an overview of the various regions featured in the lore of the game. Users can explore a list of these regions, and by selecting each one, they can delve deeper into its background and significance within the game's world.
+
+<p align="center">
+<img src="readme/storyworld.jpg" alt="Storyworld" height="300">
+</p>
+
+<p align="center">
+<img src="readme/region.jpg" alt="Region" height="300">
+</p>
+
+### Premise
+
+The Premise Page features a timeline presented in a slide format, with each slide detailing significant events that shape the story of the game. This visual timeline helps users understand the chronological progression of key events in the game's lore.
+
+<p align="center">
+<img src="readme/premise.jpg" alt="Premise" height="300">
+</p>
+
+### Description of Game
+
+The Description Pages offer blog-style entries where users can explore detailed analyses of various aspects of Knights and Knaves. This section covers the game's Dynamics, Trade-Offs, Duration, and Quantitative Analysis, providing a deep dive into the game's mechanics and strategic elements.
+
+<p align="center">
+<img src="readme/description.jpg" alt="Description" height="300">
+</p>
+
+### Gallery
+
+The Gallery Page offers a collection of images related to the game, including views of the game setup, prototype cards, and other visual elements. Users can click on each image to zoom in and inspect the details more closely.
+
+<p align="center">
+<img src="readme/gallery.jpg" alt="Gallery" height="300">
+</p>
+
+### Team
+
+The Team Page provides detailed descriptions of each member's role in the development of Knights and Knaves. It also includes visual percent bars to illustrate the contribution of each team member across various aspects of the game development process.
+
+<p align="center">
+<img src="readme/team.jpg" alt="Team" height="300">
+</p>
+
+### Cards
+
+The Cards Page showcases Action, Special, and Identity cards that exist in the game. Users can click on each card to zoom in and inspect them better.
+
+<p align="center">
+<img src="readme/cards.jpg" alt="Cards" height="300">
+</p>
+
+<p align="center">
+<img src="readme/zoom.jpg" alt="Zoom" height="300">
+</p>
+
+### PDF Links
+
+The website also features links to several pages with essential PDF files related to the game, including the Rulebook and various documentation like Meeting Logs, Playtest Logs, and Flowcharts.
+
+<p align="center">
+<img src="readme/logs.jpg" alt="Logs" height="300">
+</p>
 
 
 
-<!-- DATA -->
-## Data
+<!-- LIGHTHOUSE -->
+## Lighthouse Report
 
-- [Dictionary of Frequently-Used Taiwan Minnan][dictionary] (via [moedict-data-twblg][dictionary-via])
+<p align="center">
+<img src="readme/audit.jpg" alt="Audit" height="150">
+</p>
 
 
 
@@ -175,46 +200,33 @@ c.get('先生講，學生恬恬聽。')
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-- [MPAndroidChart][androidchart] - used to generate a pie chart for the Randomisation Algorithm analysis
-
-
-
 <!-- LICENCE -->
 ## Licence
 
-Because Taibun is MIT-licensed, any developer can essentially do whatever they want with it as long as they include the original copyright and licence notice in any copies of the source code. Note, that the data used by the package is licensed under a different copyright.
+Because Knights and Knaves is MIT-licensed, any developer can essentially do whatever they want with it as long as they include the original copyright and licence notice in any copies of the source code.
 
-The data is licensed under [CC BY-ND 3.0 TW][distionary-cc]
+Please be aware that while the software is MIT-licensed, the content related to the board game—contributed by other team members—is not included under this licence. Responsibility for applying the MIT Licence to this content does not fall under my purview.
 
 
 
 <!-- MARKDOWN LINKS -->
 <!-- Badges and their links -->
-[contributors-badge]: https://img.shields.io/badge/Contributors-5-44cc11?style=for-the-badge
+[contributors-badge]: https://img.shields.io/badge/Contributors-1-44cc11?style=for-the-badge
 [contributors]: #contributors
-[release-badge]: https://img.shields.io/github/v/release/andreihar/memory-lane?color=38618c&style=for-the-badge
-[release]: https://github.com/andreihar/memory-lane/releases
-[licence-badge]: https://img.shields.io/github/license/andreihar/taibun.svg?color=000000&style=for-the-badge
+[licence-badge]: https://img.shields.io/github/license/andreihar/knights-and-knaves.svg?color=000000&style=for-the-badge
 [licence]: LICENSE
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin]: https://www.linkedin.com/in/andrei-harbachov/
-[firebase-badge]: https://img.shields.io/badge/Firebase-4c4c4c?style=for-the-badge&logo=firebase&logoColor=23039BE5
-[firebase]: https://firebase.google.com/
+[linkedin]: https://www.linkedin.com/in/andreihar/
+[react-badge]: https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=ffffff
+[react]: https://react.dev/
+[vite-badge]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=ffffff
+[vite]: https://vitejs.dev
+[bootstrap-badge]: https://img.shields.io/badge/Bootstrap-7B12F8?style=for-the-badge&logo=bootstrap&logoColor=ffffff
+[bootstrap]: https://getbootstrap.com/
 
 <!-- Technical links -->
-[pypi]: https://pypi.org/project/taibun
-[bug]: https://github.com/andreihar/taibun/issues
-[dictionary]: https://twblg.dict.edu.tw/holodict_new/
-[dictionary-via]: https://github.com/g0v/moedict-data-twblg
-[distionary-cc]: https://creativecommons.org/licenses/by-nd/3.0/tw/deed.en
-[androidchart]: https://github.com/PhilJay/MPAndroidChart
-
-<!-- Other links -->
-[tailo-wiki]: https://en.wikipedia.org/wiki/T%C3%A2i-u%C3%A2n_L%C3%B4-m%C3%A1-j%C4%AB_Phing-im_Hong-%C3%A0n
+[demo]: https://knights-and-knaves.andreihar.com/
 
 <!-- Socials -->
-[andrei-linkedin]: https://www.linkedin.com/in/andrei-harbachov/
+[andrei-linkedin]: https://www.linkedin.com/in/andreihar/
 [andrei-github]: https://github.com/andreihar
