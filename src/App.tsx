@@ -24,11 +24,11 @@ function App() {
       <Route path="dynamics" element={<Dynamics />} />
       <Route path="tradeoffs" element={<TradeOffs />} />
       <Route path="duration" element={<Duration />} />
+      <Route path="analysis" element={<QuantAnal />} />
       <Route path="gallery" element={<Gallery />} />
       <Route path="contributions" element={<Team />} />
       <Route path="meeting" element={<Meeting />} />
       <Route path="playtest" element={<Playtest />} />
-      <Route path="analysis" element={<QuantAnal />} />
     </Routes>
   );
 }

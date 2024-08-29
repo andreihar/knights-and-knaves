@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: 
+Allow: /
+
+Sitemap: https://knights-and-knaves.andreihar.com/sitemap.xml
